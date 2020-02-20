@@ -1,0 +1,593 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: XeonCore
+  name: XeonCore
+  href: api/XeonCore.html
+  commentId: N:XeonCore
+  fullName: XeonCore
+  nameWithType: XeonCore
+- uid: XeonCore.AutoMutex
+  name: AutoMutex
+  href: api/XeonCore.AutoMutex.html
+  commentId: T:XeonCore.AutoMutex
+  fullName: XeonCore.AutoMutex
+  nameWithType: AutoMutex
+- uid: XeonCore.AutoMutex.#ctor
+  name: AutoMutex()
+  href: api/XeonCore.AutoMutex.html#XeonCore_AutoMutex__ctor
+  commentId: M:XeonCore.AutoMutex.#ctor
+  fullName: XeonCore.AutoMutex.AutoMutex()
+  nameWithType: AutoMutex.AutoMutex()
+- uid: XeonCore.AutoMutex.#ctor*
+  name: AutoMutex
+  href: api/XeonCore.AutoMutex.html#XeonCore_AutoMutex__ctor_
+  commentId: Overload:XeonCore.AutoMutex.#ctor
+  fullName: XeonCore.AutoMutex.AutoMutex
+  nameWithType: AutoMutex.AutoMutex
+- uid: XeonCore.AutoMutex.Dispose
+  name: Dispose()
+  href: api/XeonCore.AutoMutex.html#XeonCore_AutoMutex_Dispose
+  commentId: M:XeonCore.AutoMutex.Dispose
+  fullName: XeonCore.AutoMutex.Dispose()
+  nameWithType: AutoMutex.Dispose()
+- uid: XeonCore.AutoMutex.Dispose*
+  name: Dispose
+  href: api/XeonCore.AutoMutex.html#XeonCore_AutoMutex_Dispose_
+  commentId: Overload:XeonCore.AutoMutex.Dispose
+  fullName: XeonCore.AutoMutex.Dispose
+  nameWithType: AutoMutex.Dispose
+- uid: XeonCore.AutoMutex.Lock
+  name: Lock()
+  href: api/XeonCore.AutoMutex.html#XeonCore_AutoMutex_Lock
+  commentId: M:XeonCore.AutoMutex.Lock
+  fullName: XeonCore.AutoMutex.Lock()
+  nameWithType: AutoMutex.Lock()
+- uid: XeonCore.AutoMutex.Lock*
+  name: Lock
+  href: api/XeonCore.AutoMutex.html#XeonCore_AutoMutex_Lock_
+  commentId: Overload:XeonCore.AutoMutex.Lock
+  fullName: XeonCore.AutoMutex.Lock
+  nameWithType: AutoMutex.Lock
+- uid: XeonCore.Collections.Generic
+  name: XeonCore.Collections.Generic
+  href: api/XeonCore.Collections.Generic.html
+  commentId: N:XeonCore.Collections.Generic
+  fullName: XeonCore.Collections.Generic
+  nameWithType: XeonCore.Collections.Generic
+- uid: XeonCore.Collections.Generic.MutList`1
+  name: MutList<T>
+  href: api/XeonCore.Collections.Generic.MutList-1.html
+  commentId: T:XeonCore.Collections.Generic.MutList`1
+  name.vb: MutList(Of T)
+  fullName: XeonCore.Collections.Generic.MutList<T>
+  fullName.vb: XeonCore.Collections.Generic.MutList(Of T)
+  nameWithType: MutList<T>
+  nameWithType.vb: MutList(Of T)
+- uid: XeonCore.Collections.Generic.MutList`1.#ctor
+  name: MutList()
+  href: api/XeonCore.Collections.Generic.MutList-1.html#XeonCore_Collections_Generic_MutList_1__ctor
+  commentId: M:XeonCore.Collections.Generic.MutList`1.#ctor
+  fullName: XeonCore.Collections.Generic.MutList<T>.MutList()
+  fullName.vb: XeonCore.Collections.Generic.MutList(Of T).MutList()
+  nameWithType: MutList<T>.MutList()
+  nameWithType.vb: MutList(Of T).MutList()
+- uid: XeonCore.Collections.Generic.MutList`1.#ctor(System.Collections.Generic.List{`0})
+  name: MutList(List<T>)
+  href: api/XeonCore.Collections.Generic.MutList-1.html#XeonCore_Collections_Generic_MutList_1__ctor_System_Collections_Generic_List__0__
+  commentId: M:XeonCore.Collections.Generic.MutList`1.#ctor(System.Collections.Generic.List{`0})
+  name.vb: MutList(List(Of T))
+  fullName: XeonCore.Collections.Generic.MutList<T>.MutList(System.Collections.Generic.List<T>)
+  fullName.vb: XeonCore.Collections.Generic.MutList(Of T).MutList(System.Collections.Generic.List(Of T))
+  nameWithType: MutList<T>.MutList(List<T>)
+  nameWithType.vb: MutList(Of T).MutList(List(Of T))
+- uid: XeonCore.Collections.Generic.MutList`1.#ctor*
+  name: MutList
+  href: api/XeonCore.Collections.Generic.MutList-1.html#XeonCore_Collections_Generic_MutList_1__ctor_
+  commentId: Overload:XeonCore.Collections.Generic.MutList`1.#ctor
+  fullName: XeonCore.Collections.Generic.MutList<T>.MutList
+  fullName.vb: XeonCore.Collections.Generic.MutList(Of T).MutList
+  nameWithType: MutList<T>.MutList
+  nameWithType.vb: MutList(Of T).MutList
+- uid: XeonCore.Game
+  name: XeonCore.Game
+  href: api/XeonCore.Game.html
+  commentId: N:XeonCore.Game
+  fullName: XeonCore.Game
+  nameWithType: XeonCore.Game
+- uid: XeonCore.Game.IContainer
+  name: IContainer
+  href: api/XeonCore.Game.IContainer.html
+  commentId: T:XeonCore.Game.IContainer
+  fullName: XeonCore.Game.IContainer
+  nameWithType: IContainer
+- uid: XeonCore.Game.IContainer.Interior
+  name: Interior
+  href: api/XeonCore.Game.IContainer.html#XeonCore_Game_IContainer_Interior
+  commentId: P:XeonCore.Game.IContainer.Interior
+  fullName: XeonCore.Game.IContainer.Interior
+  nameWithType: IContainer.Interior
+- uid: XeonCore.Game.IContainer.Interior*
+  name: Interior
+  href: api/XeonCore.Game.IContainer.html#XeonCore_Game_IContainer_Interior_
+  commentId: Overload:XeonCore.Game.IContainer.Interior
+  fullName: XeonCore.Game.IContainer.Interior
+  nameWithType: IContainer.Interior
+- uid: XeonCore.Game.IEntity
+  name: IEntity
+  href: api/XeonCore.Game.IEntity.html
+  commentId: T:XeonCore.Game.IEntity
+  fullName: XeonCore.Game.IEntity
+  nameWithType: IEntity
+- uid: XeonCore.Game.IEntity.Position
+  name: Position
+  href: api/XeonCore.Game.IEntity.html#XeonCore_Game_IEntity_Position
+  commentId: P:XeonCore.Game.IEntity.Position
+  fullName: XeonCore.Game.IEntity.Position
+  nameWithType: IEntity.Position
+- uid: XeonCore.Game.IEntity.Position*
+  name: Position
+  href: api/XeonCore.Game.IEntity.html#XeonCore_Game_IEntity_Position_
+  commentId: Overload:XeonCore.Game.IEntity.Position
+  fullName: XeonCore.Game.IEntity.Position
+  nameWithType: IEntity.Position
+- uid: XeonCore.Locks
+  name: XeonCore.Locks
+  href: api/XeonCore.Locks.html
+  commentId: N:XeonCore.Locks
+  fullName: XeonCore.Locks
+  nameWithType: XeonCore.Locks
+- uid: XeonCore.Locks.AutoMutex
+  name: AutoMutex
+  href: api/XeonCore.Locks.AutoMutex.html
+  commentId: T:XeonCore.Locks.AutoMutex
+  fullName: XeonCore.Locks.AutoMutex
+  nameWithType: AutoMutex
+- uid: XeonCore.Locks.AutoMutex.#ctor
+  name: AutoMutex()
+  href: api/XeonCore.Locks.AutoMutex.html#XeonCore_Locks_AutoMutex__ctor
+  commentId: M:XeonCore.Locks.AutoMutex.#ctor
+  fullName: XeonCore.Locks.AutoMutex.AutoMutex()
+  nameWithType: AutoMutex.AutoMutex()
+- uid: XeonCore.Locks.AutoMutex.#ctor*
+  name: AutoMutex
+  href: api/XeonCore.Locks.AutoMutex.html#XeonCore_Locks_AutoMutex__ctor_
+  commentId: Overload:XeonCore.Locks.AutoMutex.#ctor
+  fullName: XeonCore.Locks.AutoMutex.AutoMutex
+  nameWithType: AutoMutex.AutoMutex
+- uid: XeonCore.Locks.AutoMutex.Dispose
+  name: Dispose()
+  href: api/XeonCore.Locks.AutoMutex.html#XeonCore_Locks_AutoMutex_Dispose
+  commentId: M:XeonCore.Locks.AutoMutex.Dispose
+  fullName: XeonCore.Locks.AutoMutex.Dispose()
+  nameWithType: AutoMutex.Dispose()
+- uid: XeonCore.Locks.AutoMutex.Dispose*
+  name: Dispose
+  href: api/XeonCore.Locks.AutoMutex.html#XeonCore_Locks_AutoMutex_Dispose_
+  commentId: Overload:XeonCore.Locks.AutoMutex.Dispose
+  fullName: XeonCore.Locks.AutoMutex.Dispose
+  nameWithType: AutoMutex.Dispose
+- uid: XeonCore.Locks.AutoMutex.Lock
+  name: Lock()
+  href: api/XeonCore.Locks.AutoMutex.html#XeonCore_Locks_AutoMutex_Lock
+  commentId: M:XeonCore.Locks.AutoMutex.Lock
+  fullName: XeonCore.Locks.AutoMutex.Lock()
+  nameWithType: AutoMutex.Lock()
+- uid: XeonCore.Locks.AutoMutex.Lock*
+  name: Lock
+  href: api/XeonCore.Locks.AutoMutex.html#XeonCore_Locks_AutoMutex_Lock_
+  commentId: Overload:XeonCore.Locks.AutoMutex.Lock
+  fullName: XeonCore.Locks.AutoMutex.Lock
+  nameWithType: AutoMutex.Lock
+- uid: XeonCore.Locks.Generic
+  name: XeonCore.Locks.Generic
+  href: api/XeonCore.Locks.Generic.html
+  commentId: N:XeonCore.Locks.Generic
+  fullName: XeonCore.Locks.Generic
+  nameWithType: XeonCore.Locks.Generic
+- uid: XeonCore.Locks.Generic.AutoMutex`1
+  name: AutoMutex<T>
+  href: api/XeonCore.Locks.Generic.AutoMutex-1.html
+  commentId: T:XeonCore.Locks.Generic.AutoMutex`1
+  name.vb: AutoMutex(Of T)
+  fullName: XeonCore.Locks.Generic.AutoMutex<T>
+  fullName.vb: XeonCore.Locks.Generic.AutoMutex(Of T)
+  nameWithType: AutoMutex<T>
+  nameWithType.vb: AutoMutex(Of T)
+- uid: XeonCore.Locks.Generic.AutoMutex`1.#ctor(`0)
+  name: AutoMutex(T)
+  href: api/XeonCore.Locks.Generic.AutoMutex-1.html#XeonCore_Locks_Generic_AutoMutex_1__ctor__0_
+  commentId: M:XeonCore.Locks.Generic.AutoMutex`1.#ctor(`0)
+  fullName: XeonCore.Locks.Generic.AutoMutex<T>.AutoMutex(T)
+  fullName.vb: XeonCore.Locks.Generic.AutoMutex(Of T).AutoMutex(T)
+  nameWithType: AutoMutex<T>.AutoMutex(T)
+  nameWithType.vb: AutoMutex(Of T).AutoMutex(T)
+- uid: XeonCore.Locks.Generic.AutoMutex`1.#ctor*
+  name: AutoMutex
+  href: api/XeonCore.Locks.Generic.AutoMutex-1.html#XeonCore_Locks_Generic_AutoMutex_1__ctor_
+  commentId: Overload:XeonCore.Locks.Generic.AutoMutex`1.#ctor
+  fullName: XeonCore.Locks.Generic.AutoMutex<T>.AutoMutex
+  fullName.vb: XeonCore.Locks.Generic.AutoMutex(Of T).AutoMutex
+  nameWithType: AutoMutex<T>.AutoMutex
+  nameWithType.vb: AutoMutex(Of T).AutoMutex
+- uid: XeonCore.Locks.Generic.AutoMutex`1.Dispose
+  name: Dispose()
+  href: api/XeonCore.Locks.Generic.AutoMutex-1.html#XeonCore_Locks_Generic_AutoMutex_1_Dispose
+  commentId: M:XeonCore.Locks.Generic.AutoMutex`1.Dispose
+  fullName: XeonCore.Locks.Generic.AutoMutex<T>.Dispose()
+  fullName.vb: XeonCore.Locks.Generic.AutoMutex(Of T).Dispose()
+  nameWithType: AutoMutex<T>.Dispose()
+  nameWithType.vb: AutoMutex(Of T).Dispose()
+- uid: XeonCore.Locks.Generic.AutoMutex`1.Dispose*
+  name: Dispose
+  href: api/XeonCore.Locks.Generic.AutoMutex-1.html#XeonCore_Locks_Generic_AutoMutex_1_Dispose_
+  commentId: Overload:XeonCore.Locks.Generic.AutoMutex`1.Dispose
+  fullName: XeonCore.Locks.Generic.AutoMutex<T>.Dispose
+  fullName.vb: XeonCore.Locks.Generic.AutoMutex(Of T).Dispose
+  nameWithType: AutoMutex<T>.Dispose
+  nameWithType.vb: AutoMutex(Of T).Dispose
+- uid: XeonCore.Locks.Generic.AutoMutex`1.Lock
+  name: Lock()
+  href: api/XeonCore.Locks.Generic.AutoMutex-1.html#XeonCore_Locks_Generic_AutoMutex_1_Lock
+  commentId: M:XeonCore.Locks.Generic.AutoMutex`1.Lock
+  fullName: XeonCore.Locks.Generic.AutoMutex<T>.Lock()
+  fullName.vb: XeonCore.Locks.Generic.AutoMutex(Of T).Lock()
+  nameWithType: AutoMutex<T>.Lock()
+  nameWithType.vb: AutoMutex(Of T).Lock()
+- uid: XeonCore.Locks.Generic.AutoMutex`1.Lock*
+  name: Lock
+  href: api/XeonCore.Locks.Generic.AutoMutex-1.html#XeonCore_Locks_Generic_AutoMutex_1_Lock_
+  commentId: Overload:XeonCore.Locks.Generic.AutoMutex`1.Lock
+  fullName: XeonCore.Locks.Generic.AutoMutex<T>.Lock
+  fullName.vb: XeonCore.Locks.Generic.AutoMutex(Of T).Lock
+  nameWithType: AutoMutex<T>.Lock
+  nameWithType.vb: AutoMutex(Of T).Lock
+- uid: XeonCore.Locks.Generic.MutexLock`1
+  name: MutexLock<T>
+  href: api/XeonCore.Locks.Generic.MutexLock-1.html
+  commentId: T:XeonCore.Locks.Generic.MutexLock`1
+  name.vb: MutexLock(Of T)
+  fullName: XeonCore.Locks.Generic.MutexLock<T>
+  fullName.vb: XeonCore.Locks.Generic.MutexLock(Of T)
+  nameWithType: MutexLock<T>
+  nameWithType.vb: MutexLock(Of T)
+- uid: XeonCore.Locks.Generic.MutexLock`1.#ctor(System.Threading.Mutex,`0)
+  name: MutexLock(Mutex, T)
+  href: api/XeonCore.Locks.Generic.MutexLock-1.html#XeonCore_Locks_Generic_MutexLock_1__ctor_System_Threading_Mutex__0_
+  commentId: M:XeonCore.Locks.Generic.MutexLock`1.#ctor(System.Threading.Mutex,`0)
+  fullName: XeonCore.Locks.Generic.MutexLock<T>.MutexLock(System.Threading.Mutex, T)
+  fullName.vb: XeonCore.Locks.Generic.MutexLock(Of T).MutexLock(System.Threading.Mutex, T)
+  nameWithType: MutexLock<T>.MutexLock(Mutex, T)
+  nameWithType.vb: MutexLock(Of T).MutexLock(Mutex, T)
+- uid: XeonCore.Locks.Generic.MutexLock`1.#ctor*
+  name: MutexLock
+  href: api/XeonCore.Locks.Generic.MutexLock-1.html#XeonCore_Locks_Generic_MutexLock_1__ctor_
+  commentId: Overload:XeonCore.Locks.Generic.MutexLock`1.#ctor
+  fullName: XeonCore.Locks.Generic.MutexLock<T>.MutexLock
+  fullName.vb: XeonCore.Locks.Generic.MutexLock(Of T).MutexLock
+  nameWithType: MutexLock<T>.MutexLock
+  nameWithType.vb: MutexLock(Of T).MutexLock
+- uid: XeonCore.Locks.Generic.MutexLock`1.Dispose
+  name: Dispose()
+  href: api/XeonCore.Locks.Generic.MutexLock-1.html#XeonCore_Locks_Generic_MutexLock_1_Dispose
+  commentId: M:XeonCore.Locks.Generic.MutexLock`1.Dispose
+  fullName: XeonCore.Locks.Generic.MutexLock<T>.Dispose()
+  fullName.vb: XeonCore.Locks.Generic.MutexLock(Of T).Dispose()
+  nameWithType: MutexLock<T>.Dispose()
+  nameWithType.vb: MutexLock(Of T).Dispose()
+- uid: XeonCore.Locks.Generic.MutexLock`1.Dispose*
+  name: Dispose
+  href: api/XeonCore.Locks.Generic.MutexLock-1.html#XeonCore_Locks_Generic_MutexLock_1_Dispose_
+  commentId: Overload:XeonCore.Locks.Generic.MutexLock`1.Dispose
+  fullName: XeonCore.Locks.Generic.MutexLock<T>.Dispose
+  fullName.vb: XeonCore.Locks.Generic.MutexLock(Of T).Dispose
+  nameWithType: MutexLock<T>.Dispose
+  nameWithType.vb: MutexLock(Of T).Dispose
+- uid: XeonCore.Locks.Generic.MutexLock`1.Value
+  name: Value
+  href: api/XeonCore.Locks.Generic.MutexLock-1.html#XeonCore_Locks_Generic_MutexLock_1_Value
+  commentId: F:XeonCore.Locks.Generic.MutexLock`1.Value
+  fullName: XeonCore.Locks.Generic.MutexLock<T>.Value
+  fullName.vb: XeonCore.Locks.Generic.MutexLock(Of T).Value
+  nameWithType: MutexLock<T>.Value
+  nameWithType.vb: MutexLock(Of T).Value
+- uid: XeonCore.Locks.MutexLock
+  name: MutexLock
+  href: api/XeonCore.Locks.MutexLock.html
+  commentId: T:XeonCore.Locks.MutexLock
+  fullName: XeonCore.Locks.MutexLock
+  nameWithType: MutexLock
+- uid: XeonCore.Locks.MutexLock.#ctor(System.Threading.Mutex)
+  name: MutexLock(Mutex)
+  href: api/XeonCore.Locks.MutexLock.html#XeonCore_Locks_MutexLock__ctor_System_Threading_Mutex_
+  commentId: M:XeonCore.Locks.MutexLock.#ctor(System.Threading.Mutex)
+  fullName: XeonCore.Locks.MutexLock.MutexLock(System.Threading.Mutex)
+  nameWithType: MutexLock.MutexLock(Mutex)
+- uid: XeonCore.Locks.MutexLock.#ctor*
+  name: MutexLock
+  href: api/XeonCore.Locks.MutexLock.html#XeonCore_Locks_MutexLock__ctor_
+  commentId: Overload:XeonCore.Locks.MutexLock.#ctor
+  fullName: XeonCore.Locks.MutexLock.MutexLock
+  nameWithType: MutexLock.MutexLock
+- uid: XeonCore.Locks.MutexLock.Dispose
+  name: Dispose()
+  href: api/XeonCore.Locks.MutexLock.html#XeonCore_Locks_MutexLock_Dispose
+  commentId: M:XeonCore.Locks.MutexLock.Dispose
+  fullName: XeonCore.Locks.MutexLock.Dispose()
+  nameWithType: MutexLock.Dispose()
+- uid: XeonCore.Locks.MutexLock.Dispose*
+  name: Dispose
+  href: api/XeonCore.Locks.MutexLock.html#XeonCore_Locks_MutexLock_Dispose_
+  commentId: Overload:XeonCore.Locks.MutexLock.Dispose
+  fullName: XeonCore.Locks.MutexLock.Dispose
+  nameWithType: MutexLock.Dispose
+- uid: XeonCore.Math.Vector
+  name: XeonCore.Math.Vector
+  href: api/XeonCore.Math.Vector.html
+  commentId: N:XeonCore.Math.Vector
+  fullName: XeonCore.Math.Vector
+  nameWithType: XeonCore.Math.Vector
+- uid: XeonCore.Math.Vector.Vec2D
+  name: Vec2D
+  href: api/XeonCore.Math.Vector.Vec2D.html
+  commentId: T:XeonCore.Math.Vector.Vec2D
+  fullName: XeonCore.Math.Vector.Vec2D
+  nameWithType: Vec2D
+- uid: XeonCore.Math.Vector.Vec2D.#ctor(System.Double,System.Double)
+  name: Vec2D(Double, Double)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D__ctor_System_Double_System_Double_
+  commentId: M:XeonCore.Math.Vector.Vec2D.#ctor(System.Double,System.Double)
+  fullName: XeonCore.Math.Vector.Vec2D.Vec2D(System.Double, System.Double)
+  nameWithType: Vec2D.Vec2D(Double, Double)
+- uid: XeonCore.Math.Vector.Vec2D.#ctor(System.ValueTuple{System.Double,System.Double})
+  name: Vec2D(ValueTuple<Double, Double>)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D__ctor_System_ValueTuple_System_Double_System_Double__
+  commentId: M:XeonCore.Math.Vector.Vec2D.#ctor(System.ValueTuple{System.Double,System.Double})
+  name.vb: Vec2D(ValueTuple(Of Double, Double))
+  fullName: XeonCore.Math.Vector.Vec2D.Vec2D(System.ValueTuple<System.Double, System.Double>)
+  fullName.vb: XeonCore.Math.Vector.Vec2D.Vec2D(System.ValueTuple(Of System.Double, System.Double))
+  nameWithType: Vec2D.Vec2D(ValueTuple<Double, Double>)
+  nameWithType.vb: Vec2D.Vec2D(ValueTuple(Of Double, Double))
+- uid: XeonCore.Math.Vector.Vec2D.#ctor*
+  name: Vec2D
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D__ctor_
+  commentId: Overload:XeonCore.Math.Vector.Vec2D.#ctor
+  fullName: XeonCore.Math.Vector.Vec2D.Vec2D
+  nameWithType: Vec2D.Vec2D
+- uid: XeonCore.Math.Vector.Vec2D.Equals(System.Object)
+  name: Equals(Object)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_Equals_System_Object_
+  commentId: M:XeonCore.Math.Vector.Vec2D.Equals(System.Object)
+  fullName: XeonCore.Math.Vector.Vec2D.Equals(System.Object)
+  nameWithType: Vec2D.Equals(Object)
+- uid: XeonCore.Math.Vector.Vec2D.Equals*
+  name: Equals
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_Equals_
+  commentId: Overload:XeonCore.Math.Vector.Vec2D.Equals
+  fullName: XeonCore.Math.Vector.Vec2D.Equals
+  nameWithType: Vec2D.Equals
+- uid: XeonCore.Math.Vector.Vec2D.Euclidean(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
+  name: Euclidean(Vec2D, Vec2D)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_Euclidean_XeonCore_Math_Vector_Vec2D_XeonCore_Math_Vector_Vec2D_
+  commentId: M:XeonCore.Math.Vector.Vec2D.Euclidean(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
+  fullName: XeonCore.Math.Vector.Vec2D.Euclidean(XeonCore.Math.Vector.Vec2D, XeonCore.Math.Vector.Vec2D)
+  nameWithType: Vec2D.Euclidean(Vec2D, Vec2D)
+- uid: XeonCore.Math.Vector.Vec2D.Euclidean*
+  name: Euclidean
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_Euclidean_
+  commentId: Overload:XeonCore.Math.Vector.Vec2D.Euclidean
+  fullName: XeonCore.Math.Vector.Vec2D.Euclidean
+  nameWithType: Vec2D.Euclidean
+- uid: XeonCore.Math.Vector.Vec2D.GetHashCode
+  name: GetHashCode()
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_GetHashCode
+  commentId: M:XeonCore.Math.Vector.Vec2D.GetHashCode
+  fullName: XeonCore.Math.Vector.Vec2D.GetHashCode()
+  nameWithType: Vec2D.GetHashCode()
+- uid: XeonCore.Math.Vector.Vec2D.GetHashCode*
+  name: GetHashCode
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_GetHashCode_
+  commentId: Overload:XeonCore.Math.Vector.Vec2D.GetHashCode
+  fullName: XeonCore.Math.Vector.Vec2D.GetHashCode
+  nameWithType: Vec2D.GetHashCode
+- uid: XeonCore.Math.Vector.Vec2D.Manhattan(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
+  name: Manhattan(Vec2D, Vec2D)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_Manhattan_XeonCore_Math_Vector_Vec2D_XeonCore_Math_Vector_Vec2D_
+  commentId: M:XeonCore.Math.Vector.Vec2D.Manhattan(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
+  fullName: XeonCore.Math.Vector.Vec2D.Manhattan(XeonCore.Math.Vector.Vec2D, XeonCore.Math.Vector.Vec2D)
+  nameWithType: Vec2D.Manhattan(Vec2D, Vec2D)
+- uid: XeonCore.Math.Vector.Vec2D.Manhattan*
+  name: Manhattan
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_Manhattan_
+  commentId: Overload:XeonCore.Math.Vector.Vec2D.Manhattan
+  fullName: XeonCore.Math.Vector.Vec2D.Manhattan
+  nameWithType: Vec2D.Manhattan
+- uid: XeonCore.Math.Vector.Vec2D.op_Addition(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
+  name: Addition(Vec2D, Vec2D)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Addition_XeonCore_Math_Vector_Vec2D_XeonCore_Math_Vector_Vec2D_
+  commentId: M:XeonCore.Math.Vector.Vec2D.op_Addition(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
+  fullName: XeonCore.Math.Vector.Vec2D.Addition(XeonCore.Math.Vector.Vec2D, XeonCore.Math.Vector.Vec2D)
+  nameWithType: Vec2D.Addition(Vec2D, Vec2D)
+- uid: XeonCore.Math.Vector.Vec2D.op_Addition*
+  name: Addition
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Addition_
+  commentId: Overload:XeonCore.Math.Vector.Vec2D.op_Addition
+  fullName: XeonCore.Math.Vector.Vec2D.Addition
+  nameWithType: Vec2D.Addition
+- uid: XeonCore.Math.Vector.Vec2D.op_Division(System.Double,XeonCore.Math.Vector.Vec2D)
+  name: Division(Double, Vec2D)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Division_System_Double_XeonCore_Math_Vector_Vec2D_
+  commentId: M:XeonCore.Math.Vector.Vec2D.op_Division(System.Double,XeonCore.Math.Vector.Vec2D)
+  fullName: XeonCore.Math.Vector.Vec2D.Division(System.Double, XeonCore.Math.Vector.Vec2D)
+  nameWithType: Vec2D.Division(Double, Vec2D)
+- uid: XeonCore.Math.Vector.Vec2D.op_Division(XeonCore.Math.Vector.Vec2D,System.Double)
+  name: Division(Vec2D, Double)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Division_XeonCore_Math_Vector_Vec2D_System_Double_
+  commentId: M:XeonCore.Math.Vector.Vec2D.op_Division(XeonCore.Math.Vector.Vec2D,System.Double)
+  fullName: XeonCore.Math.Vector.Vec2D.Division(XeonCore.Math.Vector.Vec2D, System.Double)
+  nameWithType: Vec2D.Division(Vec2D, Double)
+- uid: XeonCore.Math.Vector.Vec2D.op_Division(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
+  name: Division(Vec2D, Vec2D)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Division_XeonCore_Math_Vector_Vec2D_XeonCore_Math_Vector_Vec2D_
+  commentId: M:XeonCore.Math.Vector.Vec2D.op_Division(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
+  fullName: XeonCore.Math.Vector.Vec2D.Division(XeonCore.Math.Vector.Vec2D, XeonCore.Math.Vector.Vec2D)
+  nameWithType: Vec2D.Division(Vec2D, Vec2D)
+- uid: XeonCore.Math.Vector.Vec2D.op_Division*
+  name: Division
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Division_
+  commentId: Overload:XeonCore.Math.Vector.Vec2D.op_Division
+  fullName: XeonCore.Math.Vector.Vec2D.Division
+  nameWithType: Vec2D.Division
+- uid: XeonCore.Math.Vector.Vec2D.op_Equality(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
+  name: Equality(Vec2D, Vec2D)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Equality_XeonCore_Math_Vector_Vec2D_XeonCore_Math_Vector_Vec2D_
+  commentId: M:XeonCore.Math.Vector.Vec2D.op_Equality(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
+  fullName: XeonCore.Math.Vector.Vec2D.Equality(XeonCore.Math.Vector.Vec2D, XeonCore.Math.Vector.Vec2D)
+  nameWithType: Vec2D.Equality(Vec2D, Vec2D)
+- uid: XeonCore.Math.Vector.Vec2D.op_Equality*
+  name: Equality
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Equality_
+  commentId: Overload:XeonCore.Math.Vector.Vec2D.op_Equality
+  fullName: XeonCore.Math.Vector.Vec2D.Equality
+  nameWithType: Vec2D.Equality
+- uid: XeonCore.Math.Vector.Vec2D.op_Implicit(System.ValueTuple{System.Double,System.Double})~XeonCore.Math.Vector.Vec2D
+  name: Implicit(ValueTuple<Double, Double> to Vec2D)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Implicit_System_ValueTuple_System_Double_System_Double___XeonCore_Math_Vector_Vec2D
+  commentId: M:XeonCore.Math.Vector.Vec2D.op_Implicit(System.ValueTuple{System.Double,System.Double})~XeonCore.Math.Vector.Vec2D
+  name.vb: Widening(ValueTuple(Of Double, Double) to Vec2D)
+  fullName: XeonCore.Math.Vector.Vec2D.Implicit(System.ValueTuple<System.Double, System.Double> to XeonCore.Math.Vector.Vec2D)
+  fullName.vb: XeonCore.Math.Vector.Vec2D.Widening(System.ValueTuple(Of System.Double, System.Double) to XeonCore.Math.Vector.Vec2D)
+  nameWithType: Vec2D.Implicit(ValueTuple<Double, Double> to Vec2D)
+  nameWithType.vb: Vec2D.Widening(ValueTuple(Of Double, Double) to Vec2D)
+- uid: XeonCore.Math.Vector.Vec2D.op_Implicit(XeonCore.Math.Vector.Vec2D)~System.ValueTuple{System.Double,System.Double}
+  name: Implicit(Vec2D to ValueTuple<Double, Double>)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Implicit_XeonCore_Math_Vector_Vec2D__System_ValueTuple_System_Double_System_Double_
+  commentId: M:XeonCore.Math.Vector.Vec2D.op_Implicit(XeonCore.Math.Vector.Vec2D)~System.ValueTuple{System.Double,System.Double}
+  name.vb: Widening(Vec2D to ValueTuple(Of Double, Double))
+  fullName: XeonCore.Math.Vector.Vec2D.Implicit(XeonCore.Math.Vector.Vec2D to System.ValueTuple<System.Double, System.Double>)
+  fullName.vb: XeonCore.Math.Vector.Vec2D.Widening(XeonCore.Math.Vector.Vec2D to System.ValueTuple(Of System.Double, System.Double))
+  nameWithType: Vec2D.Implicit(Vec2D to ValueTuple<Double, Double>)
+  nameWithType.vb: Vec2D.Widening(Vec2D to ValueTuple(Of Double, Double))
+- uid: XeonCore.Math.Vector.Vec2D.op_Implicit*
+  name: Implicit
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Implicit_
+  commentId: Overload:XeonCore.Math.Vector.Vec2D.op_Implicit
+  name.vb: Widening
+  fullName: XeonCore.Math.Vector.Vec2D.Implicit
+  fullName.vb: XeonCore.Math.Vector.Vec2D.Widening
+  nameWithType: Vec2D.Implicit
+  nameWithType.vb: Vec2D.Widening
+- uid: XeonCore.Math.Vector.Vec2D.op_Inequality(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
+  name: Inequality(Vec2D, Vec2D)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Inequality_XeonCore_Math_Vector_Vec2D_XeonCore_Math_Vector_Vec2D_
+  commentId: M:XeonCore.Math.Vector.Vec2D.op_Inequality(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
+  fullName: XeonCore.Math.Vector.Vec2D.Inequality(XeonCore.Math.Vector.Vec2D, XeonCore.Math.Vector.Vec2D)
+  nameWithType: Vec2D.Inequality(Vec2D, Vec2D)
+- uid: XeonCore.Math.Vector.Vec2D.op_Inequality*
+  name: Inequality
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Inequality_
+  commentId: Overload:XeonCore.Math.Vector.Vec2D.op_Inequality
+  fullName: XeonCore.Math.Vector.Vec2D.Inequality
+  nameWithType: Vec2D.Inequality
+- uid: XeonCore.Math.Vector.Vec2D.op_Multiply(System.Double,XeonCore.Math.Vector.Vec2D)
+  name: Multiply(Double, Vec2D)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Multiply_System_Double_XeonCore_Math_Vector_Vec2D_
+  commentId: M:XeonCore.Math.Vector.Vec2D.op_Multiply(System.Double,XeonCore.Math.Vector.Vec2D)
+  fullName: XeonCore.Math.Vector.Vec2D.Multiply(System.Double, XeonCore.Math.Vector.Vec2D)
+  nameWithType: Vec2D.Multiply(Double, Vec2D)
+- uid: XeonCore.Math.Vector.Vec2D.op_Multiply(XeonCore.Math.Vector.Vec2D,System.Double)
+  name: Multiply(Vec2D, Double)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Multiply_XeonCore_Math_Vector_Vec2D_System_Double_
+  commentId: M:XeonCore.Math.Vector.Vec2D.op_Multiply(XeonCore.Math.Vector.Vec2D,System.Double)
+  fullName: XeonCore.Math.Vector.Vec2D.Multiply(XeonCore.Math.Vector.Vec2D, System.Double)
+  nameWithType: Vec2D.Multiply(Vec2D, Double)
+- uid: XeonCore.Math.Vector.Vec2D.op_Multiply(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
+  name: Multiply(Vec2D, Vec2D)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Multiply_XeonCore_Math_Vector_Vec2D_XeonCore_Math_Vector_Vec2D_
+  commentId: M:XeonCore.Math.Vector.Vec2D.op_Multiply(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
+  fullName: XeonCore.Math.Vector.Vec2D.Multiply(XeonCore.Math.Vector.Vec2D, XeonCore.Math.Vector.Vec2D)
+  nameWithType: Vec2D.Multiply(Vec2D, Vec2D)
+- uid: XeonCore.Math.Vector.Vec2D.op_Multiply*
+  name: Multiply
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Multiply_
+  commentId: Overload:XeonCore.Math.Vector.Vec2D.op_Multiply
+  fullName: XeonCore.Math.Vector.Vec2D.Multiply
+  nameWithType: Vec2D.Multiply
+- uid: XeonCore.Math.Vector.Vec2D.op_Subtraction(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
+  name: Subtraction(Vec2D, Vec2D)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Subtraction_XeonCore_Math_Vector_Vec2D_XeonCore_Math_Vector_Vec2D_
+  commentId: M:XeonCore.Math.Vector.Vec2D.op_Subtraction(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
+  fullName: XeonCore.Math.Vector.Vec2D.Subtraction(XeonCore.Math.Vector.Vec2D, XeonCore.Math.Vector.Vec2D)
+  nameWithType: Vec2D.Subtraction(Vec2D, Vec2D)
+- uid: XeonCore.Math.Vector.Vec2D.op_Subtraction*
+  name: Subtraction
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Subtraction_
+  commentId: Overload:XeonCore.Math.Vector.Vec2D.op_Subtraction
+  fullName: XeonCore.Math.Vector.Vec2D.Subtraction
+  nameWithType: Vec2D.Subtraction
+- uid: XeonCore.Math.Vector.Vec2D.ToString
+  name: ToString()
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_ToString
+  commentId: M:XeonCore.Math.Vector.Vec2D.ToString
+  fullName: XeonCore.Math.Vector.Vec2D.ToString()
+  nameWithType: Vec2D.ToString()
+- uid: XeonCore.Math.Vector.Vec2D.ToString*
+  name: ToString
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_ToString_
+  commentId: Overload:XeonCore.Math.Vector.Vec2D.ToString
+  fullName: XeonCore.Math.Vector.Vec2D.ToString
+  nameWithType: Vec2D.ToString
+- uid: XeonCore.Math.Vector.Vec2D.X
+  name: X
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_X
+  commentId: P:XeonCore.Math.Vector.Vec2D.X
+  fullName: XeonCore.Math.Vector.Vec2D.X
+  nameWithType: Vec2D.X
+- uid: XeonCore.Math.Vector.Vec2D.X*
+  name: X
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_X_
+  commentId: Overload:XeonCore.Math.Vector.Vec2D.X
+  fullName: XeonCore.Math.Vector.Vec2D.X
+  nameWithType: Vec2D.X
+- uid: XeonCore.Math.Vector.Vec2D.Y
+  name: Y
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_Y
+  commentId: P:XeonCore.Math.Vector.Vec2D.Y
+  fullName: XeonCore.Math.Vector.Vec2D.Y
+  nameWithType: Vec2D.Y
+- uid: XeonCore.Math.Vector.Vec2D.Y*
+  name: Y
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_Y_
+  commentId: Overload:XeonCore.Math.Vector.Vec2D.Y
+  fullName: XeonCore.Math.Vector.Vec2D.Y
+  nameWithType: Vec2D.Y
+- uid: XeonCore.MutexLock
+  name: MutexLock
+  href: api/XeonCore.MutexLock.html
+  commentId: T:XeonCore.MutexLock
+  fullName: XeonCore.MutexLock
+  nameWithType: MutexLock
+- uid: XeonCore.MutexLock.#ctor(System.Threading.Mutex)
+  name: MutexLock(Mutex)
+  href: api/XeonCore.MutexLock.html#XeonCore_MutexLock__ctor_System_Threading_Mutex_
+  commentId: M:XeonCore.MutexLock.#ctor(System.Threading.Mutex)
+  fullName: XeonCore.MutexLock.MutexLock(System.Threading.Mutex)
+  nameWithType: MutexLock.MutexLock(Mutex)
+- uid: XeonCore.MutexLock.#ctor*
+  name: MutexLock
+  href: api/XeonCore.MutexLock.html#XeonCore_MutexLock__ctor_
+  commentId: Overload:XeonCore.MutexLock.#ctor
+  fullName: XeonCore.MutexLock.MutexLock
+  nameWithType: MutexLock.MutexLock
+- uid: XeonCore.MutexLock.Dispose
+  name: Dispose()
+  href: api/XeonCore.MutexLock.html#XeonCore_MutexLock_Dispose
+  commentId: M:XeonCore.MutexLock.Dispose
+  fullName: XeonCore.MutexLock.Dispose()
+  nameWithType: MutexLock.Dispose()
+- uid: XeonCore.MutexLock.Dispose*
+  name: Dispose
+  href: api/XeonCore.MutexLock.html#XeonCore_MutexLock_Dispose_
+  commentId: Overload:XeonCore.MutexLock.Dispose
+  fullName: XeonCore.MutexLock.Dispose
+  nameWithType: MutexLock.Dispose
