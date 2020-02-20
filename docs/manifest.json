@@ -5,18 +5,6 @@
   "files": [
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/XeonCore.AutoMutex.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/XeonCore.AutoMutex.html",
-          "hash": "v3n06j7z58jC+rGFZNXJlA=="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/XeonCore.Collections.Generic.MutList-1.yml",
       "output": {
         ".html": {
@@ -34,6 +22,54 @@
         ".html": {
           "relative_path": "api/XeonCore.Collections.Generic.html",
           "hash": "DzRD0s6pGyuZjLuzF/MUiw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XeonCore.Database.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XeonCore.Database.html",
+          "hash": "nxHwtxE6s8UnT5W+8mkUsQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XeonCore.Events.EventLoop.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XeonCore.Events.EventLoop.html",
+          "hash": "+mP7d6oXskhr7iSFvtNZFA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XeonCore.Events.EventQueue.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XeonCore.Events.EventQueue.html",
+          "hash": "vvKjy8pJKSKMoSrheM3XyQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/XeonCore.Events.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/XeonCore.Events.html",
+          "hash": "Xj/xu/I7rXVFIwD3rs279A=="
         }
       },
       "is_incremental": false,
@@ -153,7 +189,7 @@
       "output": {
         ".html": {
           "relative_path": "api/XeonCore.Math.Vector.Vec2D.html",
-          "hash": "eNWjfmW9S13H9lXatr8P2A=="
+          "hash": "jjC3j2+DP+wFNueXidowqg=="
         }
       },
       "is_incremental": false,
@@ -173,11 +209,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/XeonCore.MutexLock.yml",
+      "source_relative_path": "api/XeonCore.TypeRegister-1.yml",
       "output": {
         ".html": {
-          "relative_path": "api/XeonCore.MutexLock.html",
-          "hash": "1aCUCbye8slY5KSXMm5fmQ=="
+          "relative_path": "api/XeonCore.TypeRegister-1.html",
+          "hash": "KqpD67npX+DzDP14QOM4Qw=="
         }
       },
       "is_incremental": false,
@@ -189,7 +225,7 @@
       "output": {
         ".html": {
           "relative_path": "api/XeonCore.html",
-          "hash": "gwpy/M7AV3mX+o8+lmqf1A=="
+          "hash": "ZsJZ5oAkb40lQunPWXArQg=="
         }
       },
       "is_incremental": false,
@@ -213,7 +249,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "gLv5Wmnp3SsVE0/JrhB1bw=="
+          "hash": "SmeQQn3AUVEbeG+ZnvNOHw=="
         }
       },
       "is_incremental": false,
@@ -228,7 +264,7 @@
           "hash": "/YJeSKQtiLCvBVve+G00Yg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -250,12 +286,10 @@
   "incremental_info": [
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot build incrementally because last build info is missing.",
+        "can_incremental": true,
         "incrementalPhase": "build",
         "total_file_count": 0,
-        "skipped_file_count": 0,
-        "full_build_reason_code": "NoAvailableBuildCache"
+        "skipped_file_count": 0
       },
       "processors": {
         "TocDocumentProcessor": {
@@ -265,24 +299,24 @@
           "total_file_count": 0,
           "skipped_file_count": 0
         },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": false,
-          "incrementalPhase": "build",
-          "total_file_count": 16,
-          "skipped_file_count": 0
-        },
         "ConceptualDocumentProcessor": {
-          "can_incremental": false,
+          "can_incremental": true,
           "incrementalPhase": "build",
           "total_file_count": 2,
-          "skipped_file_count": 0
+          "skipped_file_count": 2
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 19,
+          "skipped_file_count": 15
         }
       }
     },
     {
       "status": {
-        "can_incremental": false,
-        "details": "Cannot support incremental post processing, the reason is: last post processor info is null.",
+        "can_incremental": true,
+        "details": "Can support incremental post processing.",
         "incrementalPhase": "postProcessing",
         "total_file_count": 0,
         "skipped_file_count": 0

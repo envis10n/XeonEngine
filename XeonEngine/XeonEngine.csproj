@@ -5,6 +5,6 @@
     <OutputPath>$(SolutionDir)bin\$(Configuration)</OutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <ProjectReference Include="../XeonCore/XeonCore.csproj"/>
+    <ProjectReference Include="../XeonCore/XeonCore.csproj" />
   </ItemGroup>
 </Project>

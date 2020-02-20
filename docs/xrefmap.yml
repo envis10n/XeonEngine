@@ -7,48 +7,6 @@ references:
   commentId: N:XeonCore
   fullName: XeonCore
   nameWithType: XeonCore
-- uid: XeonCore.AutoMutex
-  name: AutoMutex
-  href: api/XeonCore.AutoMutex.html
-  commentId: T:XeonCore.AutoMutex
-  fullName: XeonCore.AutoMutex
-  nameWithType: AutoMutex
-- uid: XeonCore.AutoMutex.#ctor
-  name: AutoMutex()
-  href: api/XeonCore.AutoMutex.html#XeonCore_AutoMutex__ctor
-  commentId: M:XeonCore.AutoMutex.#ctor
-  fullName: XeonCore.AutoMutex.AutoMutex()
-  nameWithType: AutoMutex.AutoMutex()
-- uid: XeonCore.AutoMutex.#ctor*
-  name: AutoMutex
-  href: api/XeonCore.AutoMutex.html#XeonCore_AutoMutex__ctor_
-  commentId: Overload:XeonCore.AutoMutex.#ctor
-  fullName: XeonCore.AutoMutex.AutoMutex
-  nameWithType: AutoMutex.AutoMutex
-- uid: XeonCore.AutoMutex.Dispose
-  name: Dispose()
-  href: api/XeonCore.AutoMutex.html#XeonCore_AutoMutex_Dispose
-  commentId: M:XeonCore.AutoMutex.Dispose
-  fullName: XeonCore.AutoMutex.Dispose()
-  nameWithType: AutoMutex.Dispose()
-- uid: XeonCore.AutoMutex.Dispose*
-  name: Dispose
-  href: api/XeonCore.AutoMutex.html#XeonCore_AutoMutex_Dispose_
-  commentId: Overload:XeonCore.AutoMutex.Dispose
-  fullName: XeonCore.AutoMutex.Dispose
-  nameWithType: AutoMutex.Dispose
-- uid: XeonCore.AutoMutex.Lock
-  name: Lock()
-  href: api/XeonCore.AutoMutex.html#XeonCore_AutoMutex_Lock
-  commentId: M:XeonCore.AutoMutex.Lock
-  fullName: XeonCore.AutoMutex.Lock()
-  nameWithType: AutoMutex.Lock()
-- uid: XeonCore.AutoMutex.Lock*
-  name: Lock
-  href: api/XeonCore.AutoMutex.html#XeonCore_AutoMutex_Lock_
-  commentId: Overload:XeonCore.AutoMutex.Lock
-  fullName: XeonCore.AutoMutex.Lock
-  nameWithType: AutoMutex.Lock
 - uid: XeonCore.Collections.Generic
   name: XeonCore.Collections.Generic
   href: api/XeonCore.Collections.Generic.html
@@ -89,6 +47,144 @@ references:
   fullName.vb: XeonCore.Collections.Generic.MutList(Of T).MutList
   nameWithType: MutList<T>.MutList
   nameWithType.vb: MutList(Of T).MutList
+- uid: XeonCore.Database
+  name: Database
+  href: api/XeonCore.Database.html
+  commentId: T:XeonCore.Database
+  fullName: XeonCore.Database
+  nameWithType: Database
+- uid: XeonCore.Database.#ctor(System.String)
+  name: Database(String)
+  href: api/XeonCore.Database.html#XeonCore_Database__ctor_System_String_
+  commentId: M:XeonCore.Database.#ctor(System.String)
+  fullName: XeonCore.Database.Database(System.String)
+  nameWithType: Database.Database(String)
+- uid: XeonCore.Database.#ctor*
+  name: Database
+  href: api/XeonCore.Database.html#XeonCore_Database__ctor_
+  commentId: Overload:XeonCore.Database.#ctor
+  fullName: XeonCore.Database.Database
+  nameWithType: Database.Database
+- uid: XeonCore.Database.LDB
+  name: LDB
+  href: api/XeonCore.Database.html#XeonCore_Database_LDB
+  commentId: F:XeonCore.Database.LDB
+  fullName: XeonCore.Database.LDB
+  nameWithType: Database.LDB
+- uid: XeonCore.Events
+  name: XeonCore.Events
+  href: api/XeonCore.Events.html
+  commentId: N:XeonCore.Events
+  fullName: XeonCore.Events
+  nameWithType: XeonCore.Events
+- uid: XeonCore.Events.EventLoop
+  name: EventLoop
+  href: api/XeonCore.Events.EventLoop.html
+  commentId: T:XeonCore.Events.EventLoop
+  fullName: XeonCore.Events.EventLoop
+  nameWithType: EventLoop
+- uid: XeonCore.Events.EventLoop.#ctor(System.Int32)
+  name: EventLoop(Int32)
+  href: api/XeonCore.Events.EventLoop.html#XeonCore_Events_EventLoop__ctor_System_Int32_
+  commentId: M:XeonCore.Events.EventLoop.#ctor(System.Int32)
+  fullName: XeonCore.Events.EventLoop.EventLoop(System.Int32)
+  nameWithType: EventLoop.EventLoop(Int32)
+- uid: XeonCore.Events.EventLoop.#ctor*
+  name: EventLoop
+  href: api/XeonCore.Events.EventLoop.html#XeonCore_Events_EventLoop__ctor_
+  commentId: Overload:XeonCore.Events.EventLoop.#ctor
+  fullName: XeonCore.Events.EventLoop.EventLoop
+  nameWithType: EventLoop.EventLoop
+- uid: XeonCore.Events.EventLoop.Abort
+  name: Abort()
+  href: api/XeonCore.Events.EventLoop.html#XeonCore_Events_EventLoop_Abort
+  commentId: M:XeonCore.Events.EventLoop.Abort
+  fullName: XeonCore.Events.EventLoop.Abort()
+  nameWithType: EventLoop.Abort()
+- uid: XeonCore.Events.EventLoop.Abort*
+  name: Abort
+  href: api/XeonCore.Events.EventLoop.html#XeonCore_Events_EventLoop_Abort_
+  commentId: Overload:XeonCore.Events.EventLoop.Abort
+  fullName: XeonCore.Events.EventLoop.Abort
+  nameWithType: EventLoop.Abort
+- uid: XeonCore.Events.EventLoop.Enqueue(System.Action)
+  name: Enqueue(Action)
+  href: api/XeonCore.Events.EventLoop.html#XeonCore_Events_EventLoop_Enqueue_System_Action_
+  commentId: M:XeonCore.Events.EventLoop.Enqueue(System.Action)
+  fullName: XeonCore.Events.EventLoop.Enqueue(System.Action)
+  nameWithType: EventLoop.Enqueue(Action)
+- uid: XeonCore.Events.EventLoop.Enqueue*
+  name: Enqueue
+  href: api/XeonCore.Events.EventLoop.html#XeonCore_Events_EventLoop_Enqueue_
+  commentId: Overload:XeonCore.Events.EventLoop.Enqueue
+  fullName: XeonCore.Events.EventLoop.Enqueue
+  nameWithType: EventLoop.Enqueue
+- uid: XeonCore.Events.EventLoop.EventLoopThread
+  name: EventLoopThread
+  href: api/XeonCore.Events.EventLoop.html#XeonCore_Events_EventLoop_EventLoopThread
+  commentId: P:XeonCore.Events.EventLoop.EventLoopThread
+  fullName: XeonCore.Events.EventLoop.EventLoopThread
+  nameWithType: EventLoop.EventLoopThread
+- uid: XeonCore.Events.EventLoop.EventLoopThread*
+  name: EventLoopThread
+  href: api/XeonCore.Events.EventLoop.html#XeonCore_Events_EventLoop_EventLoopThread_
+  commentId: Overload:XeonCore.Events.EventLoop.EventLoopThread
+  fullName: XeonCore.Events.EventLoop.EventLoopThread
+  nameWithType: EventLoop.EventLoopThread
+- uid: XeonCore.Events.EventLoop.IsAlive
+  name: IsAlive
+  href: api/XeonCore.Events.EventLoop.html#XeonCore_Events_EventLoop_IsAlive
+  commentId: P:XeonCore.Events.EventLoop.IsAlive
+  fullName: XeonCore.Events.EventLoop.IsAlive
+  nameWithType: EventLoop.IsAlive
+- uid: XeonCore.Events.EventLoop.IsAlive*
+  name: IsAlive
+  href: api/XeonCore.Events.EventLoop.html#XeonCore_Events_EventLoop_IsAlive_
+  commentId: Overload:XeonCore.Events.EventLoop.IsAlive
+  fullName: XeonCore.Events.EventLoop.IsAlive
+  nameWithType: EventLoop.IsAlive
+- uid: XeonCore.Events.EventLoop.Join
+  name: Join()
+  href: api/XeonCore.Events.EventLoop.html#XeonCore_Events_EventLoop_Join
+  commentId: M:XeonCore.Events.EventLoop.Join
+  fullName: XeonCore.Events.EventLoop.Join()
+  nameWithType: EventLoop.Join()
+- uid: XeonCore.Events.EventLoop.Join*
+  name: Join
+  href: api/XeonCore.Events.EventLoop.html#XeonCore_Events_EventLoop_Join_
+  commentId: Overload:XeonCore.Events.EventLoop.Join
+  fullName: XeonCore.Events.EventLoop.Join
+  nameWithType: EventLoop.Join
+- uid: XeonCore.Events.EventLoop.TickRate
+  name: TickRate
+  href: api/XeonCore.Events.EventLoop.html#XeonCore_Events_EventLoop_TickRate
+  commentId: P:XeonCore.Events.EventLoop.TickRate
+  fullName: XeonCore.Events.EventLoop.TickRate
+  nameWithType: EventLoop.TickRate
+- uid: XeonCore.Events.EventLoop.TickRate*
+  name: TickRate
+  href: api/XeonCore.Events.EventLoop.html#XeonCore_Events_EventLoop_TickRate_
+  commentId: Overload:XeonCore.Events.EventLoop.TickRate
+  fullName: XeonCore.Events.EventLoop.TickRate
+  nameWithType: EventLoop.TickRate
+- uid: XeonCore.Events.EventQueue
+  name: EventQueue
+  href: api/XeonCore.Events.EventQueue.html
+  commentId: T:XeonCore.Events.EventQueue
+  fullName: XeonCore.Events.EventQueue
+  nameWithType: EventQueue
+- uid: XeonCore.Events.EventQueue.#ctor
+  name: EventQueue()
+  href: api/XeonCore.Events.EventQueue.html#XeonCore_Events_EventQueue__ctor
+  commentId: M:XeonCore.Events.EventQueue.#ctor
+  fullName: XeonCore.Events.EventQueue.EventQueue()
+  nameWithType: EventQueue.EventQueue()
+- uid: XeonCore.Events.EventQueue.#ctor*
+  name: EventQueue
+  href: api/XeonCore.Events.EventQueue.html#XeonCore_Events_EventQueue__ctor_
+  commentId: Overload:XeonCore.Events.EventQueue.#ctor
+  fullName: XeonCore.Events.EventQueue.EventQueue
+  nameWithType: EventQueue.EventQueue
 - uid: XeonCore.Game
   name: XeonCore.Game
   href: api/XeonCore.Game.html
@@ -357,6 +453,12 @@ references:
   commentId: Overload:XeonCore.Math.Vector.Vec2D.Manhattan
   fullName: XeonCore.Math.Vector.Vec2D.Manhattan
   nameWithType: Vec2D.Manhattan
+- uid: XeonCore.Math.Vector.Vec2D.Mapped
+  name: Mapped
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_Mapped
+  commentId: F:XeonCore.Math.Vector.Vec2D.Mapped
+  fullName: XeonCore.Math.Vector.Vec2D.Mapped
+  nameWithType: Vec2D.Mapped
 - uid: XeonCore.Math.Vector.Vec2D.op_Addition(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
   name: Addition(Vec2D, Vec2D)
   href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Addition_XeonCore_Math_Vector_Vec2D_XeonCore_Math_Vector_Vec2D_
@@ -393,6 +495,33 @@ references:
   commentId: Overload:XeonCore.Math.Vector.Vec2D.op_Division
   fullName: XeonCore.Math.Vector.Vec2D.Division
   nameWithType: Vec2D.Division
+- uid: XeonCore.Math.Vector.Vec2D.op_Explicit(LiteDB.BsonValue)~XeonCore.Math.Vector.Vec2D
+  name: Explicit(BsonValue to Vec2D)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Explicit_LiteDB_BsonValue__XeonCore_Math_Vector_Vec2D
+  commentId: M:XeonCore.Math.Vector.Vec2D.op_Explicit(LiteDB.BsonValue)~XeonCore.Math.Vector.Vec2D
+  name.vb: Narrowing(BsonValue to Vec2D)
+  fullName: XeonCore.Math.Vector.Vec2D.Explicit(LiteDB.BsonValue to XeonCore.Math.Vector.Vec2D)
+  fullName.vb: XeonCore.Math.Vector.Vec2D.Narrowing(LiteDB.BsonValue to XeonCore.Math.Vector.Vec2D)
+  nameWithType: Vec2D.Explicit(BsonValue to Vec2D)
+  nameWithType.vb: Vec2D.Narrowing(BsonValue to Vec2D)
+- uid: XeonCore.Math.Vector.Vec2D.op_Explicit*
+  name: Explicit
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Explicit_
+  commentId: Overload:XeonCore.Math.Vector.Vec2D.op_Explicit
+  name.vb: Narrowing
+  fullName: XeonCore.Math.Vector.Vec2D.Explicit
+  fullName.vb: XeonCore.Math.Vector.Vec2D.Narrowing
+  nameWithType: Vec2D.Explicit
+  nameWithType.vb: Vec2D.Narrowing
+- uid: XeonCore.Math.Vector.Vec2D.op_Implicit(System.Double[])~XeonCore.Math.Vector.Vec2D
+  name: Implicit(Double[] to Vec2D)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Implicit_System_Double____XeonCore_Math_Vector_Vec2D
+  commentId: M:XeonCore.Math.Vector.Vec2D.op_Implicit(System.Double[])~XeonCore.Math.Vector.Vec2D
+  name.vb: Widening(Double() to Vec2D)
+  fullName: XeonCore.Math.Vector.Vec2D.Implicit(System.Double[] to XeonCore.Math.Vector.Vec2D)
+  fullName.vb: XeonCore.Math.Vector.Vec2D.Widening(System.Double() to XeonCore.Math.Vector.Vec2D)
+  nameWithType: Vec2D.Implicit(Double[] to Vec2D)
+  nameWithType.vb: Vec2D.Widening(Double() to Vec2D)
 - uid: XeonCore.Math.Vector.Vec2D.op_Implicit(System.ValueTuple{System.Double,System.Double})~XeonCore.Math.Vector.Vec2D
   name: Implicit(ValueTuple<Double, Double> to Vec2D)
   href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Implicit_System_ValueTuple_System_Double_System_Double___XeonCore_Math_Vector_Vec2D
@@ -402,6 +531,33 @@ references:
   fullName.vb: XeonCore.Math.Vector.Vec2D.Widening(System.ValueTuple(Of System.Double, System.Double) to XeonCore.Math.Vector.Vec2D)
   nameWithType: Vec2D.Implicit(ValueTuple<Double, Double> to Vec2D)
   nameWithType.vb: Vec2D.Widening(ValueTuple(Of Double, Double) to Vec2D)
+- uid: XeonCore.Math.Vector.Vec2D.op_Implicit(XeonCore.Math.Vector.Vec2D)~LiteDB.BsonArray
+  name: Implicit(Vec2D to BsonArray)
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Implicit_XeonCore_Math_Vector_Vec2D__LiteDB_BsonArray
+  commentId: M:XeonCore.Math.Vector.Vec2D.op_Implicit(XeonCore.Math.Vector.Vec2D)~LiteDB.BsonArray
+  name.vb: Widening(Vec2D to BsonArray)
+  fullName: XeonCore.Math.Vector.Vec2D.Implicit(XeonCore.Math.Vector.Vec2D to LiteDB.BsonArray)
+  fullName.vb: XeonCore.Math.Vector.Vec2D.Widening(XeonCore.Math.Vector.Vec2D to LiteDB.BsonArray)
+  nameWithType: Vec2D.Implicit(Vec2D to BsonArray)
+  nameWithType.vb: Vec2D.Widening(Vec2D to BsonArray)
+- uid: XeonCore.Math.Vector.Vec2D.op_Implicit(XeonCore.Math.Vector.Vec2D)~LiteDB.BsonValue[]
+  name: Implicit(Vec2D to BsonValue[])
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Implicit_XeonCore_Math_Vector_Vec2D__LiteDB_BsonValue__
+  commentId: M:XeonCore.Math.Vector.Vec2D.op_Implicit(XeonCore.Math.Vector.Vec2D)~LiteDB.BsonValue[]
+  name.vb: Widening(Vec2D to BsonValue())
+  fullName: XeonCore.Math.Vector.Vec2D.Implicit(XeonCore.Math.Vector.Vec2D to LiteDB.BsonValue[])
+  fullName.vb: XeonCore.Math.Vector.Vec2D.Widening(XeonCore.Math.Vector.Vec2D to LiteDB.BsonValue())
+  nameWithType: Vec2D.Implicit(Vec2D to BsonValue[])
+  nameWithType.vb: Vec2D.Widening(Vec2D to BsonValue())
+- uid: XeonCore.Math.Vector.Vec2D.op_Implicit(XeonCore.Math.Vector.Vec2D)~System.Double[]
+  name: Implicit(Vec2D to Double[])
+  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Implicit_XeonCore_Math_Vector_Vec2D__System_Double__
+  commentId: M:XeonCore.Math.Vector.Vec2D.op_Implicit(XeonCore.Math.Vector.Vec2D)~System.Double[]
+  name.vb: Widening(Vec2D to Double())
+  fullName: XeonCore.Math.Vector.Vec2D.Implicit(XeonCore.Math.Vector.Vec2D to System.Double[])
+  fullName.vb: XeonCore.Math.Vector.Vec2D.Widening(XeonCore.Math.Vector.Vec2D to System.Double())
+  nameWithType: Vec2D.Implicit(Vec2D to Double[])
+  nameWithType.vb: Vec2D.Widening(Vec2D to Double())
 - uid: XeonCore.Math.Vector.Vec2D.op_Implicit(XeonCore.Math.Vector.Vec2D)~System.ValueTuple{System.Double,System.Double}
   name: Implicit(Vec2D to ValueTuple<Double, Double>)
   href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Implicit_XeonCore_Math_Vector_Vec2D__System_ValueTuple_System_Double_System_Double_
@@ -480,33 +636,28 @@ references:
   commentId: F:XeonCore.Math.Vector.Vec2D.Y
   fullName: XeonCore.Math.Vector.Vec2D.Y
   nameWithType: Vec2D.Y
-- uid: XeonCore.MutexLock
-  name: MutexLock
-  href: api/XeonCore.MutexLock.html
-  commentId: T:XeonCore.MutexLock
-  fullName: XeonCore.MutexLock
-  nameWithType: MutexLock
-- uid: XeonCore.MutexLock.#ctor(System.Threading.Mutex)
-  name: MutexLock(Mutex)
-  href: api/XeonCore.MutexLock.html#XeonCore_MutexLock__ctor_System_Threading_Mutex_
-  commentId: M:XeonCore.MutexLock.#ctor(System.Threading.Mutex)
-  fullName: XeonCore.MutexLock.MutexLock(System.Threading.Mutex)
-  nameWithType: MutexLock.MutexLock(Mutex)
-- uid: XeonCore.MutexLock.#ctor*
-  name: MutexLock
-  href: api/XeonCore.MutexLock.html#XeonCore_MutexLock__ctor_
-  commentId: Overload:XeonCore.MutexLock.#ctor
-  fullName: XeonCore.MutexLock.MutexLock
-  nameWithType: MutexLock.MutexLock
-- uid: XeonCore.MutexLock.Dispose
-  name: Dispose()
-  href: api/XeonCore.MutexLock.html#XeonCore_MutexLock_Dispose
-  commentId: M:XeonCore.MutexLock.Dispose
-  fullName: XeonCore.MutexLock.Dispose()
-  nameWithType: MutexLock.Dispose()
-- uid: XeonCore.MutexLock.Dispose*
-  name: Dispose
-  href: api/XeonCore.MutexLock.html#XeonCore_MutexLock_Dispose_
-  commentId: Overload:XeonCore.MutexLock.Dispose
-  fullName: XeonCore.MutexLock.Dispose
-  nameWithType: MutexLock.Dispose
+- uid: XeonCore.TypeRegister`1
+  name: TypeRegister<T>
+  href: api/XeonCore.TypeRegister-1.html
+  commentId: T:XeonCore.TypeRegister`1
+  name.vb: TypeRegister(Of T)
+  fullName: XeonCore.TypeRegister<T>
+  fullName.vb: XeonCore.TypeRegister(Of T)
+  nameWithType: TypeRegister<T>
+  nameWithType.vb: TypeRegister(Of T)
+- uid: XeonCore.TypeRegister`1.Deserialize
+  name: Deserialize
+  href: api/XeonCore.TypeRegister-1.html#XeonCore_TypeRegister_1_Deserialize
+  commentId: F:XeonCore.TypeRegister`1.Deserialize
+  fullName: XeonCore.TypeRegister<T>.Deserialize
+  fullName.vb: XeonCore.TypeRegister(Of T).Deserialize
+  nameWithType: TypeRegister<T>.Deserialize
+  nameWithType.vb: TypeRegister(Of T).Deserialize
+- uid: XeonCore.TypeRegister`1.Serialize
+  name: Serialize
+  href: api/XeonCore.TypeRegister-1.html#XeonCore_TypeRegister_1_Serialize
+  commentId: F:XeonCore.TypeRegister`1.Serialize
+  fullName: XeonCore.TypeRegister<T>.Serialize
+  fullName.vb: XeonCore.TypeRegister(Of T).Serialize
+  nameWithType: TypeRegister<T>.Serialize
+  nameWithType.vb: TypeRegister(Of T).Serialize

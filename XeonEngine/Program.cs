@@ -1,15 +1,21 @@
-﻿using XeonCore.Math.Vector;
+﻿using System.Reflection;
+using System.IO;
+using XeonCore.Events;
 using System;
 
 namespace XeonEngine
 {
     class Program
     {
+        public static string AppDir = new FileInfo(Assembly.GetEntryAssembly().Location).Directory.ToString();
         static void Main(string[] args)
         {
-            Vec2D pos = (1, 1);
-            Vec2D npos = pos * (2, 5);
-            Console.WriteLine($"Pos: {pos}\nNPos: {npos}\nEuclidean: {Vec2D.Euclidean(pos, npos)}\nManhattan: {Vec2D.Manhattan(pos, npos)}");
+            EventLoop Events = new EventLoop(60);
+            Events.Enqueue(() =>
+            {
+                Console.WriteLine("Hello, Event Loop!");
+            });
+            Events.Join();
         }
     }
 }
