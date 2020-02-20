@@ -1,7 +1,7 @@
 using System;
 using System.Threading;
 
-namespace XeonUtil
+namespace XeonCore
 {
     /// <summary>A disposable wrapper that automatically releases the parent mutex.</summary>
     public sealed class MutexLock : IDisposable

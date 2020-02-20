@@ -1,5 +1,5 @@
 ﻿using System.Threading;
-using XeonUtil.Math.Vector;
+using XeonCore.Math.Vector;
 using System.Collections.Generic;
 using System;
 

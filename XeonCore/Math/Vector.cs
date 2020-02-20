@@ -3,7 +3,7 @@
 */
 using System;
 
-namespace XeonUtil.Math.Vector
+namespace XeonCore.Math.Vector
 {
     /// <summary>Represents a 2-dimensional vector.</summary>
     public class Vec2D : Tuple<double, double>

@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XeonEngine", "XeonEngine\XeonEngine.csproj", "{25032926-B605-423C-A69F-AF82BC6CA923}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XeonUtil", "XeonUtil\XeonUtil.csproj", "{49B99400-E517-4405-8619-9E2226D9A4D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XeonCore", "XeonCore\XeonCore.csproj", "{49B99400-E517-4405-8619-9E2226D9A4D2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
