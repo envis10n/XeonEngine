@@ -13,12 +13,13 @@ namespace XeonCore.Math.Vector
         public double X;
         /// <summary>The Y coordinate of this vector.</summary>
         public double Y;
-        /// <summary>Add two Vec2D values.</summary>
+        /// <summary>A TypeRegister for the LiteDB BsonMapper.</summary>
         public static TypeRegister<Vec2D> Mapped = new TypeRegister<Vec2D>
         {
             Serialize = (x) => x,
             Deserialize = (x) => (Vec2D)x
         };
+        /// <summary>Add two Vec2D values.</summary>
         public static Vec2D operator +(Vec2D a, Vec2D b) => new Vec2D { X = a.X + b.X, Y = a.Y + b.Y };
         /// <summary>Subtract two Vec2D values.</summary>
         public static Vec2D operator -(Vec2D a, Vec2D b) => new Vec2D { X = a.X - b.X, Y = a.Y - b.Y };
