@@ -333,39 +333,6 @@ references:
   commentId: T:XeonCore.Math.Vector.Vec2D
   fullName: XeonCore.Math.Vector.Vec2D
   nameWithType: Vec2D
-- uid: XeonCore.Math.Vector.Vec2D.#ctor(System.Double,System.Double)
-  name: Vec2D(Double, Double)
-  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D__ctor_System_Double_System_Double_
-  commentId: M:XeonCore.Math.Vector.Vec2D.#ctor(System.Double,System.Double)
-  fullName: XeonCore.Math.Vector.Vec2D.Vec2D(System.Double, System.Double)
-  nameWithType: Vec2D.Vec2D(Double, Double)
-- uid: XeonCore.Math.Vector.Vec2D.#ctor(System.ValueTuple{System.Double,System.Double})
-  name: Vec2D(ValueTuple<Double, Double>)
-  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D__ctor_System_ValueTuple_System_Double_System_Double__
-  commentId: M:XeonCore.Math.Vector.Vec2D.#ctor(System.ValueTuple{System.Double,System.Double})
-  name.vb: Vec2D(ValueTuple(Of Double, Double))
-  fullName: XeonCore.Math.Vector.Vec2D.Vec2D(System.ValueTuple<System.Double, System.Double>)
-  fullName.vb: XeonCore.Math.Vector.Vec2D.Vec2D(System.ValueTuple(Of System.Double, System.Double))
-  nameWithType: Vec2D.Vec2D(ValueTuple<Double, Double>)
-  nameWithType.vb: Vec2D.Vec2D(ValueTuple(Of Double, Double))
-- uid: XeonCore.Math.Vector.Vec2D.#ctor*
-  name: Vec2D
-  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D__ctor_
-  commentId: Overload:XeonCore.Math.Vector.Vec2D.#ctor
-  fullName: XeonCore.Math.Vector.Vec2D.Vec2D
-  nameWithType: Vec2D.Vec2D
-- uid: XeonCore.Math.Vector.Vec2D.Equals(System.Object)
-  name: Equals(Object)
-  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_Equals_System_Object_
-  commentId: M:XeonCore.Math.Vector.Vec2D.Equals(System.Object)
-  fullName: XeonCore.Math.Vector.Vec2D.Equals(System.Object)
-  nameWithType: Vec2D.Equals(Object)
-- uid: XeonCore.Math.Vector.Vec2D.Equals*
-  name: Equals
-  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_Equals_
-  commentId: Overload:XeonCore.Math.Vector.Vec2D.Equals
-  fullName: XeonCore.Math.Vector.Vec2D.Equals
-  nameWithType: Vec2D.Equals
 - uid: XeonCore.Math.Vector.Vec2D.Euclidean(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
   name: Euclidean(Vec2D, Vec2D)
   href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_Euclidean_XeonCore_Math_Vector_Vec2D_XeonCore_Math_Vector_Vec2D_
@@ -378,18 +345,6 @@ references:
   commentId: Overload:XeonCore.Math.Vector.Vec2D.Euclidean
   fullName: XeonCore.Math.Vector.Vec2D.Euclidean
   nameWithType: Vec2D.Euclidean
-- uid: XeonCore.Math.Vector.Vec2D.GetHashCode
-  name: GetHashCode()
-  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_GetHashCode
-  commentId: M:XeonCore.Math.Vector.Vec2D.GetHashCode
-  fullName: XeonCore.Math.Vector.Vec2D.GetHashCode()
-  nameWithType: Vec2D.GetHashCode()
-- uid: XeonCore.Math.Vector.Vec2D.GetHashCode*
-  name: GetHashCode
-  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_GetHashCode_
-  commentId: Overload:XeonCore.Math.Vector.Vec2D.GetHashCode
-  fullName: XeonCore.Math.Vector.Vec2D.GetHashCode
-  nameWithType: Vec2D.GetHashCode
 - uid: XeonCore.Math.Vector.Vec2D.Manhattan(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
   name: Manhattan(Vec2D, Vec2D)
   href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_Manhattan_XeonCore_Math_Vector_Vec2D_XeonCore_Math_Vector_Vec2D_
@@ -438,18 +393,6 @@ references:
   commentId: Overload:XeonCore.Math.Vector.Vec2D.op_Division
   fullName: XeonCore.Math.Vector.Vec2D.Division
   nameWithType: Vec2D.Division
-- uid: XeonCore.Math.Vector.Vec2D.op_Equality(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
-  name: Equality(Vec2D, Vec2D)
-  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Equality_XeonCore_Math_Vector_Vec2D_XeonCore_Math_Vector_Vec2D_
-  commentId: M:XeonCore.Math.Vector.Vec2D.op_Equality(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
-  fullName: XeonCore.Math.Vector.Vec2D.Equality(XeonCore.Math.Vector.Vec2D, XeonCore.Math.Vector.Vec2D)
-  nameWithType: Vec2D.Equality(Vec2D, Vec2D)
-- uid: XeonCore.Math.Vector.Vec2D.op_Equality*
-  name: Equality
-  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Equality_
-  commentId: Overload:XeonCore.Math.Vector.Vec2D.op_Equality
-  fullName: XeonCore.Math.Vector.Vec2D.Equality
-  nameWithType: Vec2D.Equality
 - uid: XeonCore.Math.Vector.Vec2D.op_Implicit(System.ValueTuple{System.Double,System.Double})~XeonCore.Math.Vector.Vec2D
   name: Implicit(ValueTuple<Double, Double> to Vec2D)
   href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Implicit_System_ValueTuple_System_Double_System_Double___XeonCore_Math_Vector_Vec2D
@@ -477,18 +420,6 @@ references:
   fullName.vb: XeonCore.Math.Vector.Vec2D.Widening
   nameWithType: Vec2D.Implicit
   nameWithType.vb: Vec2D.Widening
-- uid: XeonCore.Math.Vector.Vec2D.op_Inequality(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
-  name: Inequality(Vec2D, Vec2D)
-  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Inequality_XeonCore_Math_Vector_Vec2D_XeonCore_Math_Vector_Vec2D_
-  commentId: M:XeonCore.Math.Vector.Vec2D.op_Inequality(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
-  fullName: XeonCore.Math.Vector.Vec2D.Inequality(XeonCore.Math.Vector.Vec2D, XeonCore.Math.Vector.Vec2D)
-  nameWithType: Vec2D.Inequality(Vec2D, Vec2D)
-- uid: XeonCore.Math.Vector.Vec2D.op_Inequality*
-  name: Inequality
-  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Inequality_
-  commentId: Overload:XeonCore.Math.Vector.Vec2D.op_Inequality
-  fullName: XeonCore.Math.Vector.Vec2D.Inequality
-  nameWithType: Vec2D.Inequality
 - uid: XeonCore.Math.Vector.Vec2D.op_Multiply(System.Double,XeonCore.Math.Vector.Vec2D)
   name: Multiply(Double, Vec2D)
   href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Multiply_System_Double_XeonCore_Math_Vector_Vec2D_
@@ -540,25 +471,13 @@ references:
 - uid: XeonCore.Math.Vector.Vec2D.X
   name: X
   href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_X
-  commentId: P:XeonCore.Math.Vector.Vec2D.X
-  fullName: XeonCore.Math.Vector.Vec2D.X
-  nameWithType: Vec2D.X
-- uid: XeonCore.Math.Vector.Vec2D.X*
-  name: X
-  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_X_
-  commentId: Overload:XeonCore.Math.Vector.Vec2D.X
+  commentId: F:XeonCore.Math.Vector.Vec2D.X
   fullName: XeonCore.Math.Vector.Vec2D.X
   nameWithType: Vec2D.X
 - uid: XeonCore.Math.Vector.Vec2D.Y
   name: Y
   href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_Y
-  commentId: P:XeonCore.Math.Vector.Vec2D.Y
-  fullName: XeonCore.Math.Vector.Vec2D.Y
-  nameWithType: Vec2D.Y
-- uid: XeonCore.Math.Vector.Vec2D.Y*
-  name: Y
-  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_Y_
-  commentId: Overload:XeonCore.Math.Vector.Vec2D.Y
+  commentId: F:XeonCore.Math.Vector.Vec2D.Y
   fullName: XeonCore.Math.Vector.Vec2D.Y
   nameWithType: Vec2D.Y
 - uid: XeonCore.MutexLock

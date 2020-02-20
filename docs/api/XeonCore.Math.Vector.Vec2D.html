@@ -73,7 +73,7 @@
   
   <h1 id="XeonCore_Math_Vector_Vec2D" data-uid="XeonCore.Math.Vector.Vec2D" class="text-break">Class Vec2D
   </h1>
-  <div class="markdown level0 summary"><p>Represents a 2-dimensional vector.</p>
+  <div class="markdown level0 summary"><p>A structure defining a two-dimensional Vector.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -85,85 +85,21 @@
   <h6><strong>Assembly</strong>: XeonCore.dll</h6>
   <h5 id="XeonCore_Math_Vector_Vec2D_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class Vec2D : Tuple&lt;double, double&gt;</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class Vec2D : ValueType</code></pre>
   </div>
-  <h3 id="constructors">Constructors
+  <h3 id="fields">Fields
   </h3>
   
   
-  <a id="XeonCore_Math_Vector_Vec2D__ctor_" data-uid="XeonCore.Math.Vector.Vec2D.#ctor*"></a>
-  <h4 id="XeonCore_Math_Vector_Vec2D__ctor_System_Double_System_Double_" data-uid="XeonCore.Math.Vector.Vec2D.#ctor(System.Double,System.Double)">Vec2D(Double, Double)</h4>
-  <div class="markdown level1 summary"><p>Create a new Vec2D from 2 double values.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vec2D(double x, double y)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">x</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Double</span></td>
-        <td><span class="parametername">y</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="XeonCore_Math_Vector_Vec2D__ctor_" data-uid="XeonCore.Math.Vector.Vec2D.#ctor*"></a>
-  <h4 id="XeonCore_Math_Vector_Vec2D__ctor_System_ValueTuple_System_Double_System_Double__" data-uid="XeonCore.Math.Vector.Vec2D.#ctor(System.ValueTuple{System.Double,System.Double})">Vec2D(ValueTuple&lt;Double, Double&gt;)</h4>
-  <div class="markdown level1 summary"><p>Create a new Vec2D from a Tuple.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Vec2D(ValueTuple&lt;double, double&gt; tuple)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Double</span>, <span class="xref">System.Double</span>&gt;</td>
-        <td><span class="parametername">tuple</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h3 id="properties">Properties
-  </h3>
-  
-  
-  <a id="XeonCore_Math_Vector_Vec2D_X_" data-uid="XeonCore.Math.Vector.Vec2D.X*"></a>
   <h4 id="XeonCore_Math_Vector_Vec2D_X" data-uid="XeonCore.Math.Vector.Vec2D.X">X</h4>
-  <div class="markdown level1 summary"><p>X value of the 2D vector.</p>
+  <div class="markdown level1 summary"><p>The X coordinate of this vector.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double X { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public double X</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -180,16 +116,15 @@
   </table>
   
   
-  <a id="XeonCore_Math_Vector_Vec2D_Y_" data-uid="XeonCore.Math.Vector.Vec2D.Y*"></a>
   <h4 id="XeonCore_Math_Vector_Vec2D_Y" data-uid="XeonCore.Math.Vector.Vec2D.Y">Y</h4>
-  <div class="markdown level1 summary"><p>Y value of the 2D vector.</p>
+  <div class="markdown level1 summary"><p>The Y coordinate of this vector.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public double Y { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public double Y</code></pre>
   </div>
-  <h5 class="propertyValue">Property Value</h5>
+  <h5 class="fieldValue">Field Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -206,49 +141,6 @@
   </table>
   <h3 id="methods">Methods
   </h3>
-  
-  
-  <a id="XeonCore_Math_Vector_Vec2D_Equals_" data-uid="XeonCore.Math.Vector.Vec2D.Equals*"></a>
-  <h4 id="XeonCore_Math_Vector_Vec2D_Equals_System_Object_" data-uid="XeonCore.Math.Vector.Vec2D.Equals(System.Object)">Equals(Object)</h4>
-  <div class="markdown level1 summary"><p>Override Equals</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Object</span></td>
-        <td><span class="parametername">obj</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="XeonCore_Math_Vector_Vec2D_Euclidean_" data-uid="XeonCore.Math.Vector.Vec2D.Euclidean*"></a>
@@ -293,32 +185,6 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Double</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="XeonCore_Math_Vector_Vec2D_GetHashCode_" data-uid="XeonCore.Math.Vector.Vec2D.GetHashCode*"></a>
-  <h4 id="XeonCore_Math_Vector_Vec2D_GetHashCode" data-uid="XeonCore.Math.Vector.Vec2D.GetHashCode">GetHashCode()</h4>
-  <div class="markdown level1 summary"><p>Override GetHashCode</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -593,54 +459,6 @@
   </table>
   
   
-  <a id="XeonCore_Math_Vector_Vec2D_op_Equality_" data-uid="XeonCore.Math.Vector.Vec2D.op_Equality*"></a>
-  <h4 id="XeonCore_Math_Vector_Vec2D_op_Equality_XeonCore_Math_Vector_Vec2D_XeonCore_Math_Vector_Vec2D_" data-uid="XeonCore.Math.Vector.Vec2D.op_Equality(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)">Equality(Vec2D, Vec2D)</h4>
-  <div class="markdown level1 summary"><p>Compare Vec2D values.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool operator ==(Vec2D a, Vec2D b)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="XeonCore.Math.Vector.Vec2D.html">Vec2D</a></td>
-        <td><span class="parametername">a</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="XeonCore.Math.Vector.Vec2D.html">Vec2D</a></td>
-        <td><span class="parametername">b</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="XeonCore_Math_Vector_Vec2D_op_Implicit_" data-uid="XeonCore.Math.Vector.Vec2D.op_Implicit*"></a>
   <h4 id="XeonCore_Math_Vector_Vec2D_op_Implicit_System_ValueTuple_System_Double_System_Double___XeonCore_Math_Vector_Vec2D" data-uid="XeonCore.Math.Vector.Vec2D.op_Implicit(System.ValueTuple{System.Double,System.Double})~XeonCore.Math.Vector.Vec2D">Implicit(ValueTuple&lt;Double, Double&gt; to Vec2D)</h4>
   <div class="markdown level1 summary"><p>Implicitly cast a named tuple to Vec2D.</p>
@@ -721,54 +539,6 @@
     <tbody>
       <tr>
         <td><span class="xref">System.ValueTuple</span>&lt;<span class="xref">System.Double</span>, <span class="xref">System.Double</span>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="XeonCore_Math_Vector_Vec2D_op_Inequality_" data-uid="XeonCore.Math.Vector.Vec2D.op_Inequality*"></a>
-  <h4 id="XeonCore_Math_Vector_Vec2D_op_Inequality_XeonCore_Math_Vector_Vec2D_XeonCore_Math_Vector_Vec2D_" data-uid="XeonCore.Math.Vector.Vec2D.op_Inequality(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)">Inequality(Vec2D, Vec2D)</h4>
-  <div class="markdown level1 summary"><p>Compare Vec2D values.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static bool operator !=(Vec2D a, Vec2D b)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="XeonCore.Math.Vector.Vec2D.html">Vec2D</a></td>
-        <td><span class="parametername">a</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="XeonCore.Math.Vector.Vec2D.html">Vec2D</a></td>
-        <td><span class="parametername">b</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>
