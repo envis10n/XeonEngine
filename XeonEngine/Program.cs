@@ -1,6 +1,4 @@
-﻿using System.Threading;
-using XeonCore.Math.Vector;
-using System.Collections.Generic;
+﻿using XeonCore.Math.Vector;
 using System;
 
 namespace XeonEngine

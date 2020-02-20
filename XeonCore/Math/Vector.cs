@@ -5,41 +5,33 @@ using System;
 
 namespace XeonCore.Math.Vector
 {
-    /// <summary>Represents a 2-dimensional vector.</summary>
-    public class Vec2D : Tuple<double, double>
+    /// <summary>A structure defining a two-dimensional Vector.</summary>
+    public struct Vec2D
     {
-        /// <summary>X value of the 2D vector.</summary>
-        public double X { get => Item1; }
-        /// <summary>Y value of the 2D vector.</summary>
-        public double Y { get => Item2; }
-        /// <summary>Create a new Vec2D from 2 double values.</summary>
-        public Vec2D(double x, double y) : base(x, y) { }
-        /// <summary>Create a new Vec2D from a Tuple.</summary>
-        public Vec2D((double x, double y) tuple) : base(tuple.x, tuple.y) { }
+        /// <summary>The X coordinate of this vector.</summary>
+        public double X;
+        /// <summary>The Y coordinate of this vector.</summary>
+        public double Y;
         /// <summary>Add two Vec2D values.</summary>
-        public static Vec2D operator +(Vec2D a, Vec2D b) => new Vec2D(a.X + b.X, a.Y + b.Y);
+        public static Vec2D operator +(Vec2D a, Vec2D b) => new Vec2D { X = a.X + b.X, Y = a.Y + b.Y };
         /// <summary>Subtract two Vec2D values.</summary>
-        public static Vec2D operator -(Vec2D a, Vec2D b) => new Vec2D(a.X - b.X, a.Y - b.Y);
+        public static Vec2D operator -(Vec2D a, Vec2D b) => new Vec2D { X = a.X - b.X, Y = a.Y - b.Y };
         /// <summary>Multiply two Vec2D values.</summary>
-        public static Vec2D operator *(Vec2D a, Vec2D b) => new Vec2D(a.X * b.X, a.Y * b.Y);
+        public static Vec2D operator *(Vec2D a, Vec2D b) => new Vec2D { X = a.X * b.X, Y = a.Y * b.Y };
         /// <summary>Multiply a Vec2D by a double.</summary>
-        public static Vec2D operator *(Vec2D a, double b) => new Vec2D(a.X * b, a.Y * b);
+        public static Vec2D operator *(Vec2D a, double b) => new Vec2D { X = a.X * b, Y = a.Y * b };
         /// <summary>Multiply a Vec2D by a double.</summary>
-        public static Vec2D operator *(double a, Vec2D b) => new Vec2D(a * b.X, a * b.Y);
+        public static Vec2D operator *(double a, Vec2D b) => new Vec2D { X = a * b.X, Y = a * b.Y };
         /// <summary>Divide two Vec2D values.</summary>
-        public static Vec2D operator /(Vec2D a, Vec2D b) => new Vec2D(a.X / b.X, a.Y / b.Y);
+        public static Vec2D operator /(Vec2D a, Vec2D b) => new Vec2D { X = a.X / b.X, Y = a.Y / b.Y };
         /// <summary>Divide a Vec2D by a double.</summary>
-        public static Vec2D operator /(Vec2D a, double b) => new Vec2D(a.X / b, a.Y / b);
+        public static Vec2D operator /(Vec2D a, double b) => new Vec2D { X = a.X / b, Y = a.Y / b };
         /// <summary>Divide a Vec2D by a double.</summary>
-        public static Vec2D operator /(double a, Vec2D b) => new Vec2D(a / b.X, a / b.Y);
-        /// <summary>Compare Vec2D values.</summary>
-        public static bool operator ==(Vec2D a, Vec2D b) => a.X == b.X && a.Y == b.Y;
-        /// <summary>Compare Vec2D values.</summary>
-        public static bool operator !=(Vec2D a, Vec2D b) => a.X != b.X || a.Y != b.Y;
+        public static Vec2D operator /(double a, Vec2D b) => new Vec2D { X = a / b.X, Y = a / b.Y };
         /// <summary>Implicitly cast a Vec2D to a named tuple.</summary>
-        public static implicit operator (double x, double y)(Vec2D a) => (x: a.X, y: a.Y);
+        public static implicit operator ValueTuple<double, double>(Vec2D a) => (a.X, a.Y);
         /// <summary>Implicitly cast a named tuple to Vec2D.</summary>
-        public static implicit operator Vec2D((double x, double y) a) => new Vec2D(a.x, a.y);
+        public static implicit operator Vec2D(ValueTuple<double, double> a) => new Vec2D { X = a.Item1, Y = a.Item2 };
         /// <summary>Gets the Manhattan Distance between Vec2D values.</summary>
         public static double Manhattan(Vec2D a, Vec2D b)
         {
@@ -54,18 +46,6 @@ namespace XeonCore.Math.Vector
         public override string ToString()
         {
             return $"[{X}, {Y}]";
-        }
-        /// <summary>Override Equals</summary>
-#nullable enable
-        public override bool Equals(object? obj)
-        {
-            return base.Equals(obj);
-        }
-#nullable disable
-        /// <summary>Override GetHashCode</summary>
-        public override int GetHashCode()
-        {
-            return base.GetHashCode();
         }
     }
 }
