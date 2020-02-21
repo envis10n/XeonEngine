@@ -1,7 +1,9 @@
 ﻿using System.Reflection;
 using System.IO;
-using XeonCore.Events;
+using XeonCore;
+using XeonCore.Math.Vector;
 using System;
+using LiteDB;
 
 namespace XeonEngine
 {
@@ -10,12 +12,7 @@ namespace XeonEngine
         public static string AppDir = new FileInfo(Assembly.GetEntryAssembly().Location).Directory.ToString();
         static void Main(string[] args)
         {
-            EventLoop Events = new EventLoop(60);
-            Events.Enqueue(() =>
-            {
-                Console.WriteLine("Hello, Event Loop!");
-            });
-            Events.Join();
+
         }
     }
 }

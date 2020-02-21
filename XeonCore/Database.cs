@@ -1,9 +1,9 @@
 using LiteDB;
 using System;
-using XeonCore.Math.Vector;
 
 namespace XeonCore
 {
+    using Math.Vector;
     public struct TypeRegister<T>
     {
         public Func<T, BsonValue> Serialize;
@@ -21,9 +21,20 @@ namespace XeonCore
         private void SetupMapper()
         {
             // Register Vec2D in the BsonMapper
-            BsonMapper.Global.RegisterType<Vec2D>(
-                Vec2D.Mapped.Serialize,
-                Vec2D.Mapped.Deserialize
+            BsonMapper.Global.RegisterType<Math.Vector.Vec2D>(
+                serialize: (x) => new BsonArray(new BsonValue[] { new BsonValue(x.X), new BsonValue(x.Y) }),
+                deserialize: (x) =>
+                {
+                    if (x.IsArray)
+                    {
+                        BsonArray b = x.AsArray;
+                        if (b.Count >= 2 && b[0].IsNumber && b[1].IsNumber)
+                        {
+                            return new Vec2D { X = b[0].AsDouble, Y = b[1].AsDouble };
+                        }
+                    }
+                    throw new InvalidCastException();
+                }
             );
         }
     }

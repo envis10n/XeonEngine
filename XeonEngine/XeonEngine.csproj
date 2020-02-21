@@ -7,4 +7,7 @@
   <ItemGroup>
     <ProjectReference Include="../XeonCore/XeonCore.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="LiteDB" Version="5.0.2" />
+  </ItemGroup>
 </Project>
