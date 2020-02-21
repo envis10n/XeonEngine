@@ -1,9 +1,5 @@
 ﻿using System.Reflection;
 using System.IO;
-using XeonCore;
-using XeonCore.Math.Vector;
-using System;
-using LiteDB;
 
 namespace XeonEngine
 {
@@ -12,7 +8,7 @@ namespace XeonEngine
         public static string AppDir = new FileInfo(Assembly.GetEntryAssembly().Location).Directory.ToString();
         static void Main(string[] args)
         {
-
+            Storage.Init();
         }
     }
 }

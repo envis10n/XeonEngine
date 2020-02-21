@@ -1,12 +1,6 @@
 ### YamlMime:XRefMap
 sorted: true
 references:
-- uid: XeonCore
-  name: XeonCore
-  href: api/XeonCore.html
-  commentId: N:XeonCore
-  fullName: XeonCore
-  nameWithType: XeonCore
 - uid: XeonCore.Collections.Generic
   name: XeonCore.Collections.Generic
   href: api/XeonCore.Collections.Generic.html
@@ -30,15 +24,15 @@ references:
   fullName.vb: XeonCore.Collections.Generic.MutList(Of T).MutList()
   nameWithType: MutList<T>.MutList()
   nameWithType.vb: MutList(Of T).MutList()
-- uid: XeonCore.Collections.Generic.MutList`1.#ctor(System.Collections.Generic.List{`0})
-  name: MutList(List<T>)
-  href: api/XeonCore.Collections.Generic.MutList-1.html#XeonCore_Collections_Generic_MutList_1__ctor_System_Collections_Generic_List__0__
-  commentId: M:XeonCore.Collections.Generic.MutList`1.#ctor(System.Collections.Generic.List{`0})
-  name.vb: MutList(List(Of T))
-  fullName: XeonCore.Collections.Generic.MutList<T>.MutList(System.Collections.Generic.List<T>)
-  fullName.vb: XeonCore.Collections.Generic.MutList(Of T).MutList(System.Collections.Generic.List(Of T))
-  nameWithType: MutList<T>.MutList(List<T>)
-  nameWithType.vb: MutList(Of T).MutList(List(Of T))
+- uid: XeonCore.Collections.Generic.MutList`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+  name: MutList(IEnumerable<T>)
+  href: api/XeonCore.Collections.Generic.MutList-1.html#XeonCore_Collections_Generic_MutList_1__ctor_System_Collections_Generic_IEnumerable__0__
+  commentId: M:XeonCore.Collections.Generic.MutList`1.#ctor(System.Collections.Generic.IEnumerable{`0})
+  name.vb: MutList(IEnumerable(Of T))
+  fullName: XeonCore.Collections.Generic.MutList<T>.MutList(System.Collections.Generic.IEnumerable<T>)
+  fullName.vb: XeonCore.Collections.Generic.MutList(Of T).MutList(System.Collections.Generic.IEnumerable(Of T))
+  nameWithType: MutList<T>.MutList(IEnumerable<T>)
+  nameWithType.vb: MutList(Of T).MutList(IEnumerable(Of T))
 - uid: XeonCore.Collections.Generic.MutList`1.#ctor*
   name: MutList
   href: api/XeonCore.Collections.Generic.MutList-1.html#XeonCore_Collections_Generic_MutList_1__ctor_
@@ -47,30 +41,6 @@ references:
   fullName.vb: XeonCore.Collections.Generic.MutList(Of T).MutList
   nameWithType: MutList<T>.MutList
   nameWithType.vb: MutList(Of T).MutList
-- uid: XeonCore.Database
-  name: Database
-  href: api/XeonCore.Database.html
-  commentId: T:XeonCore.Database
-  fullName: XeonCore.Database
-  nameWithType: Database
-- uid: XeonCore.Database.#ctor(System.String)
-  name: Database(String)
-  href: api/XeonCore.Database.html#XeonCore_Database__ctor_System_String_
-  commentId: M:XeonCore.Database.#ctor(System.String)
-  fullName: XeonCore.Database.Database(System.String)
-  nameWithType: Database.Database(String)
-- uid: XeonCore.Database.#ctor*
-  name: Database
-  href: api/XeonCore.Database.html#XeonCore_Database__ctor_
-  commentId: Overload:XeonCore.Database.#ctor
-  fullName: XeonCore.Database.Database
-  nameWithType: Database.Database
-- uid: XeonCore.Database.LDB
-  name: LDB
-  href: api/XeonCore.Database.html#XeonCore_Database_LDB
-  commentId: F:XeonCore.Database.LDB
-  fullName: XeonCore.Database.LDB
-  nameWithType: Database.LDB
 - uid: XeonCore.Events
   name: XeonCore.Events
   href: api/XeonCore.Events.html
@@ -215,6 +185,18 @@ references:
   commentId: T:XeonCore.Game.IEntity
   fullName: XeonCore.Game.IEntity
   nameWithType: IEntity
+- uid: XeonCore.Game.IEntity.Id
+  name: Id
+  href: api/XeonCore.Game.IEntity.html#XeonCore_Game_IEntity_Id
+  commentId: P:XeonCore.Game.IEntity.Id
+  fullName: XeonCore.Game.IEntity.Id
+  nameWithType: IEntity.Id
+- uid: XeonCore.Game.IEntity.Id*
+  name: Id
+  href: api/XeonCore.Game.IEntity.html#XeonCore_Game_IEntity_Id_
+  commentId: Overload:XeonCore.Game.IEntity.Id
+  fullName: XeonCore.Game.IEntity.Id
+  nameWithType: IEntity.Id
 - uid: XeonCore.Game.IEntity.Position
   name: Position
   href: api/XeonCore.Game.IEntity.html#XeonCore_Game_IEntity_Position
@@ -594,28 +576,30 @@ references:
   commentId: F:XeonCore.Math.Vector.Vec2D.Y
   fullName: XeonCore.Math.Vector.Vec2D.Y
   nameWithType: Vec2D.Y
-- uid: XeonCore.TypeRegister`1
-  name: TypeRegister<T>
-  href: api/XeonCore.TypeRegister-1.html
-  commentId: T:XeonCore.TypeRegister`1
-  name.vb: TypeRegister(Of T)
-  fullName: XeonCore.TypeRegister<T>
-  fullName.vb: XeonCore.TypeRegister(Of T)
-  nameWithType: TypeRegister<T>
-  nameWithType.vb: TypeRegister(Of T)
-- uid: XeonCore.TypeRegister`1.Deserialize
-  name: Deserialize
-  href: api/XeonCore.TypeRegister-1.html#XeonCore_TypeRegister_1_Deserialize
-  commentId: F:XeonCore.TypeRegister`1.Deserialize
-  fullName: XeonCore.TypeRegister<T>.Deserialize
-  fullName.vb: XeonCore.TypeRegister(Of T).Deserialize
-  nameWithType: TypeRegister<T>.Deserialize
-  nameWithType.vb: TypeRegister(Of T).Deserialize
-- uid: XeonCore.TypeRegister`1.Serialize
-  name: Serialize
-  href: api/XeonCore.TypeRegister-1.html#XeonCore_TypeRegister_1_Serialize
-  commentId: F:XeonCore.TypeRegister`1.Serialize
-  fullName: XeonCore.TypeRegister<T>.Serialize
-  fullName.vb: XeonCore.TypeRegister(Of T).Serialize
-  nameWithType: TypeRegister<T>.Serialize
-  nameWithType.vb: TypeRegister(Of T).Serialize
+- uid: XeonCore.Util
+  name: XeonCore.Util
+  href: api/XeonCore.Util.html
+  commentId: N:XeonCore.Util
+  fullName: XeonCore.Util
+  nameWithType: XeonCore.Util
+- uid: XeonCore.Util.Array
+  name: Array
+  href: api/XeonCore.Util.Array.html
+  commentId: T:XeonCore.Util.Array
+  fullName: XeonCore.Util.Array
+  nameWithType: Array
+- uid: XeonCore.Util.Array.Every*
+  name: Every
+  href: api/XeonCore.Util.Array.html#XeonCore_Util_Array_Every_
+  commentId: Overload:XeonCore.Util.Array.Every
+  fullName: XeonCore.Util.Array.Every
+  nameWithType: Array.Every
+- uid: XeonCore.Util.Array.Every``1(``0[],System.Predicate{``0})
+  name: Every<T>(T[], Predicate<T>)
+  href: api/XeonCore.Util.Array.html#XeonCore_Util_Array_Every__1___0___System_Predicate___0__
+  commentId: M:XeonCore.Util.Array.Every``1(``0[],System.Predicate{``0})
+  name.vb: Every(Of T)(T(), Predicate(Of T))
+  fullName: XeonCore.Util.Array.Every<T>(T[], System.Predicate<T>)
+  fullName.vb: XeonCore.Util.Array.Every(Of T)(T(), System.Predicate(Of T))
+  nameWithType: Array.Every<T>(T[], Predicate<T>)
+  nameWithType.vb: Array.Every(Of T)(T(), Predicate(Of T))

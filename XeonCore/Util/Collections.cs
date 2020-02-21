@@ -9,6 +9,6 @@ namespace XeonCore.Collections.Generic
         /// <summary>Create a MutList with a fresh List.</summary>
         public MutList() : base(new List<T>()) { }
         /// <summary>Create a MutList with an existing List.</summary>
-        public MutList(List<T> list) : base(new List<T>(list.ToArray())) { }
+        public MutList(IEnumerable<T> list) : base(new List<T>(list)) { }
     }
 }

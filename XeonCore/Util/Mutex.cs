@@ -1,5 +1,6 @@
 using System;
 using System.Threading;
+using Newtonsoft.Json;
 
 namespace XeonCore.Locks
 {
@@ -71,6 +72,7 @@ namespace XeonCore.Locks.Generic
     /// <summary>A mutex lock that automatically relaeses when the generated wrapper is disposed.</summary>
     public class AutoMutex<T> : IDisposable
     {
+        [JsonProperty]
         private T _value;
         private Mutex mut = new Mutex();
         /// <summary>Creates an AutoMutex that wraps a value.</summary>

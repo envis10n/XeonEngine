@@ -6,6 +6,6 @@ namespace XeonCore.Game
     public interface IContainer : IEntity
     {
         /// <summary>A Mutex-backed List containing the entities inside of this container.</summary>
-        public MutList<IEntity> Interior { get; }
+        public MutList<IContainer> Interior { get; }
     }
 }
