@@ -453,12 +453,6 @@ references:
   commentId: Overload:XeonCore.Math.Vector.Vec2D.Manhattan
   fullName: XeonCore.Math.Vector.Vec2D.Manhattan
   nameWithType: Vec2D.Manhattan
-- uid: XeonCore.Math.Vector.Vec2D.Mapped
-  name: Mapped
-  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_Mapped
-  commentId: F:XeonCore.Math.Vector.Vec2D.Mapped
-  fullName: XeonCore.Math.Vector.Vec2D.Mapped
-  nameWithType: Vec2D.Mapped
 - uid: XeonCore.Math.Vector.Vec2D.op_Addition(XeonCore.Math.Vector.Vec2D,XeonCore.Math.Vector.Vec2D)
   name: Addition(Vec2D, Vec2D)
   href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Addition_XeonCore_Math_Vector_Vec2D_XeonCore_Math_Vector_Vec2D_
@@ -495,24 +489,6 @@ references:
   commentId: Overload:XeonCore.Math.Vector.Vec2D.op_Division
   fullName: XeonCore.Math.Vector.Vec2D.Division
   nameWithType: Vec2D.Division
-- uid: XeonCore.Math.Vector.Vec2D.op_Explicit(LiteDB.BsonValue)~XeonCore.Math.Vector.Vec2D
-  name: Explicit(BsonValue to Vec2D)
-  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Explicit_LiteDB_BsonValue__XeonCore_Math_Vector_Vec2D
-  commentId: M:XeonCore.Math.Vector.Vec2D.op_Explicit(LiteDB.BsonValue)~XeonCore.Math.Vector.Vec2D
-  name.vb: Narrowing(BsonValue to Vec2D)
-  fullName: XeonCore.Math.Vector.Vec2D.Explicit(LiteDB.BsonValue to XeonCore.Math.Vector.Vec2D)
-  fullName.vb: XeonCore.Math.Vector.Vec2D.Narrowing(LiteDB.BsonValue to XeonCore.Math.Vector.Vec2D)
-  nameWithType: Vec2D.Explicit(BsonValue to Vec2D)
-  nameWithType.vb: Vec2D.Narrowing(BsonValue to Vec2D)
-- uid: XeonCore.Math.Vector.Vec2D.op_Explicit*
-  name: Explicit
-  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Explicit_
-  commentId: Overload:XeonCore.Math.Vector.Vec2D.op_Explicit
-  name.vb: Narrowing
-  fullName: XeonCore.Math.Vector.Vec2D.Explicit
-  fullName.vb: XeonCore.Math.Vector.Vec2D.Narrowing
-  nameWithType: Vec2D.Explicit
-  nameWithType.vb: Vec2D.Narrowing
 - uid: XeonCore.Math.Vector.Vec2D.op_Implicit(System.Double[])~XeonCore.Math.Vector.Vec2D
   name: Implicit(Double[] to Vec2D)
   href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Implicit_System_Double____XeonCore_Math_Vector_Vec2D
@@ -531,24 +507,6 @@ references:
   fullName.vb: XeonCore.Math.Vector.Vec2D.Widening(System.ValueTuple(Of System.Double, System.Double) to XeonCore.Math.Vector.Vec2D)
   nameWithType: Vec2D.Implicit(ValueTuple<Double, Double> to Vec2D)
   nameWithType.vb: Vec2D.Widening(ValueTuple(Of Double, Double) to Vec2D)
-- uid: XeonCore.Math.Vector.Vec2D.op_Implicit(XeonCore.Math.Vector.Vec2D)~LiteDB.BsonArray
-  name: Implicit(Vec2D to BsonArray)
-  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Implicit_XeonCore_Math_Vector_Vec2D__LiteDB_BsonArray
-  commentId: M:XeonCore.Math.Vector.Vec2D.op_Implicit(XeonCore.Math.Vector.Vec2D)~LiteDB.BsonArray
-  name.vb: Widening(Vec2D to BsonArray)
-  fullName: XeonCore.Math.Vector.Vec2D.Implicit(XeonCore.Math.Vector.Vec2D to LiteDB.BsonArray)
-  fullName.vb: XeonCore.Math.Vector.Vec2D.Widening(XeonCore.Math.Vector.Vec2D to LiteDB.BsonArray)
-  nameWithType: Vec2D.Implicit(Vec2D to BsonArray)
-  nameWithType.vb: Vec2D.Widening(Vec2D to BsonArray)
-- uid: XeonCore.Math.Vector.Vec2D.op_Implicit(XeonCore.Math.Vector.Vec2D)~LiteDB.BsonValue[]
-  name: Implicit(Vec2D to BsonValue[])
-  href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Implicit_XeonCore_Math_Vector_Vec2D__LiteDB_BsonValue__
-  commentId: M:XeonCore.Math.Vector.Vec2D.op_Implicit(XeonCore.Math.Vector.Vec2D)~LiteDB.BsonValue[]
-  name.vb: Widening(Vec2D to BsonValue())
-  fullName: XeonCore.Math.Vector.Vec2D.Implicit(XeonCore.Math.Vector.Vec2D to LiteDB.BsonValue[])
-  fullName.vb: XeonCore.Math.Vector.Vec2D.Widening(XeonCore.Math.Vector.Vec2D to LiteDB.BsonValue())
-  nameWithType: Vec2D.Implicit(Vec2D to BsonValue[])
-  nameWithType.vb: Vec2D.Widening(Vec2D to BsonValue())
 - uid: XeonCore.Math.Vector.Vec2D.op_Implicit(XeonCore.Math.Vector.Vec2D)~System.Double[]
   name: Implicit(Vec2D to Double[])
   href: api/XeonCore.Math.Vector.Vec2D.html#XeonCore_Math_Vector_Vec2D_op_Implicit_XeonCore_Math_Vector_Vec2D__System_Double__
